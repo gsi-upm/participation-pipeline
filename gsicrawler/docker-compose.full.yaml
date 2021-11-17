@@ -1,0 +1,38 @@
+# This YAML runs every service as a separate container
+version: '2.1'
+services:
+  backend:
+    image: "${IMAGE:-registry.cluster.gsi.dit.upm.es/gsicrawler}:${VERSION:-dev}"
+    build: .
+    command: "celery"
+    ports:
+     - "5555:5555"
+    networks:
+      - gsicrawler
+    depends_on:
+      - redis
+    environment:
+      - GSICRAWLER_BROKER=broker
+
+  frontend:
+    image: "${IMAGE:-registry.cluster.gsi.dit.upm.es/gsicrawler}:${VERSION:-dev}"
+    build: .
+    command: "web"
+    ports:
+     - "5000:5000"
+    networks:
+      - gsicrawler
+    depends_on:
+      - backend
+      - broker
+    environment:
+      - GSICRAWLER_BROKER=broker
+
+  broker:
+    image: redis
+    networks:
+      - gsicrawler
+
+networks:
+  gsicrawler:
+    driver: bridge

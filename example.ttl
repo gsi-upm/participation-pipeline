@@ -1,0 +1,3290 @@
+@prefix ns1: <http://www.gsi.upm.es/ontologies/participation/sliwc/ns#> .
+@prefix ns2: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ns3: <http://schema.org/> .
+@prefix ns4: <http://rdfs.org/sioc/ns#> .
+@prefix ns5: <http://purl.org/dc/terms/> .
+@prefix ns6: <http://www.gsi.upm.es/ontologies/participation/narrative/ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://twitter.com/01iota/status/1415645222302797828> a ns4:Post ;
+    ns2:isString "and for harmless posts like this iranians can be kidnapped and tortured. this woman you might have heard of yesterday. the mullahs wanted to kidnap, spirit her away on a speedboat to venezuela and on to iran to be put on trial for sedition. remember obama's pallets of cash? <hashtag> maga <allcaps> <allcaps>" ;
+    ns5:created "2021-07-15T12:11:37Z" ;
+    ns4:content "and for harmless posts like this iranians can be kidnapped and tortured. this woman you might have heard of yesterday. the mullahs wanted to kidnap, spirit her away on a speedboat to venezuela and on to iran to be put on trial for sedition. remember obama's pallets of cash? <hashtag> maga <allcaps> <allcaps>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "01iota" ;
+            ns4:name "01iota" ] ;
+    ns4:id 1415645222302797828 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United States" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#Annotation>,
+                ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#HarmVice> ] ;
+            ns1:ratio 2e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 2e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Female ] ;
+            ns1:ratio 4e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Religion ] ;
+            ns1:ratio 2e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Money ] ;
+            ns1:ratio 2e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 2e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 2e-02 ] .
+
+<https://twitter.com/2006ta/status/1346450885627539462> a ns4:Post ;
+    ns2:isString "<user> <user> i was born and raise in wyoming and can not believe how stupid they arrest. we have a good education system there- how ( except that they all watch fox news) can they be this dumb <hashtag> maga <allcaps> <allcaps>" ;
+    ns5:created "2021-01-05T13:38:01Z" ;
+    ns4:content "<user> <user> i was born and raise in wyoming and can not believe how stupid they arrest. we have a good education system there- how ( except that they all watch fox news) can they be this dumb <hashtag> maga <allcaps> <allcaps>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "2006ta" ;
+            ns4:name "2006ta" ] ;
+    ns4:id 1346450885627539462 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "Ireland" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 5.128205e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Reward ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 5.128205e-02 ] ;
+    <schema:parentItem> "https://twitter.com/MollyJongFast/status/14298769" .
+
+<https://twitter.com/a_esceptica/status/1414729915031867394> a ns4:Post ;
+    ns2:isString "el mundo <hastag> qa <allcaps>non se ilusiona con que trump volverá a la presidencia en agosto cuando la suprema corte haya comprobado el fraude.   <url> trumpworld wants distance from qa <allcaps>non even as the ex-president winks at it  <url>" ;
+    ns5:created "2021-07-12T23:34:30Z" ;
+    ns4:content "el mundo <hastag> qa <allcaps>non se ilusiona con que trump volverá a la presidencia en agosto cuando la suprema corte haya comprobado el fraude.   <url> trumpworld wants distance from qa <allcaps>non even as the ex-president winks at it  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "a_esceptica" ;
+            ns4:name "a_esceptica" ] ;
+    ns4:id 1414729915031867394 ;
+    ns3:inLanguage "es" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/a_esceptica/status/1417148308276064259> a ns4:Post ;
+    ns2:isString "<hastag> qa <allcaps>non se cuela en los pueblos pequeños ante la incapacidad de penetrar las grandes metrópolis, más educadas y liberales .   <url> qa <allcaps>non conspiracy thinking edges into olympic peninsula politics  <url>" ;
+    ns5:created "2021-07-19T15:44:20Z" ;
+    ns4:content "<hastag> qa <allcaps>non se cuela en los pueblos pequeños ante la incapacidad de penetrar las grandes metrópolis, más educadas y liberales .   <url> qa <allcaps>non conspiracy thinking edges into olympic peninsula politics  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "a_esceptica" ;
+            ns4:name "a_esceptica" ] ;
+    ns4:id 1417148308276064259 ;
+    ns3:inLanguage "es" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/agustinaltes/status/1416385044235628544> a ns4:Post ;
+    ns2:isString "<user> en esta materia tiene razón el sentido común, camarada tullido: no tenemos por qué pagarles sanidad, prestaciones, alojamiento, y capriichitos a los mena <allcaps>s y encima darles gratuitamente permisos de trabajo y residencia. que los cuiden en sus países. <hastag> mena <allcaps>s_out <hastag> stopislam" ;
+    ns5:created "2021-07-17T13:11:24Z" ;
+    ns4:content "<user> en esta materia tiene razón el sentido común, camarada tullido: no tenemos por qué pagarles sanidad, prestaciones, alojamiento, y capriichitos a los mena <allcaps>s y encima darles gratuitamente permisos de trabajo y residencia. que los cuiden en sus países. <hastag> mena <allcaps>s_out <hastag> stopislam" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "agustinaltes" ;
+            ns4:name "agustinaltes" ] ;
+    ns4:id 1416385044235628544 ;
+    ns3:inLanguage "es" ;
+    ns3:locationCreated "Spain" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "menas_out" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "stopislam" ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Leisure ] ;
+            ns1:ratio 2.439024e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 7.317073e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 2.439024e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Home ] ;
+            ns1:ratio 4.878049e-02 ] ;
+    <schema:parentItem> "https://twitter.com/PabloEchenique/status/25555639" .
+
+<https://twitter.com/alejandrorabel1/status/1394689347589398537> a ns4:Post ;
+    ns2:isString "<user> no os cansais de dar vergüenza? en serio esto os parece resaltable? asco es poco. <hastag> soloquedavox <user> <hastag> stopinvasioninmigratoria <hastag> stopislam" ;
+    ns5:created "2021-05-18T16:20:27Z" ;
+    ns4:content "<user> no os cansais de dar vergüenza? en serio esto os parece resaltable? asco es poco. <hastag> soloquedavox <user> <hastag> stopinvasioninmigratoria <hastag> stopislam" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "alejandrorabel1" ;
+            ns4:name "alejandrorabel1" ] ;
+    ns4:id 1394689347589398537 ;
+    ns3:inLanguage "es" ;
+    ns3:locationCreated "" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "soloquedavox" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "stopislam" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "stopinvasioninmigratoria" ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 5e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anxiety ] ;
+            ns1:ratio 5e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 1.5e-01 ] .
+
+<https://twitter.com/alicjapawluczuk/status/1416120836763918341> a ns4:Post ;
+    ns2:isString "instagram has become a home for paranoid thinking too. \"influencers are mixing virulent distrust of the media &amp; religious gratitude toward <hastag> qa <allcaps>non with sponsored posts for cool-girl clothing brands &amp; beauty products\", writes <user>    <url>" ;
+    ns5:created "2021-07-16T19:41:32Z" ;
+    ns4:content "instagram has become a home for paranoid thinking too. \"influencers are mixing virulent distrust of the media &amp; religious gratitude toward <hastag> qa <allcaps>non with sponsored posts for cool-girl clothing brands &amp; beauty products\", writes <user>    <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "alicjapawluczuk" ;
+            ns4:name "alicjapawluczuk" ] ;
+    ns4:id 1416120836763918341 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Religion ] ;
+            ns1:ratio 2.631579e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 5.263158e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Female ] ;
+            ns1:ratio 2.631579e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 7.894737e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Risk ] ;
+            ns1:ratio 2.631579e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Leisure ] ;
+            ns1:ratio 2.631579e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anxiety ] ;
+            ns1:ratio 2.631579e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Home ] ;
+            ns1:ratio 2.631579e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 2.631579e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 2.631579e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 2.631579e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 5.263158e-02 ] .
+
+<https://twitter.com/alikaansevinc/status/1379485354273693698> a ns4:Post ;
+    ns2:isString "sorry da musste ich schon hart lachen - auf was für ein scheiss <hastag> trump und seine gesinnungsgenossen von <hastag> qa <allcaps>non kommen. <hastag> evergiven" ;
+    ns5:created "2021-04-06T17:25:12Z" ;
+    ns4:content "sorry da musste ich schon hart lachen - auf was für ein scheiss <hastag> trump und seine gesinnungsgenossen von <hastag> qa <allcaps>non kommen. <hastag> evergiven" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "alikaansevinc" ;
+            ns4:name "alikaansevinc" ] ;
+    ns4:id 1379485354273693698 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "evergiven" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "trump" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 4.761905e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 4.761905e-02 ] .
+
+<https://twitter.com/beauftragtgg/status/1414535860427579396> a ns4:Post ;
+    ns2:isString "obwohl sich <hastag> qa <allcaps>non &amp; <hastag> querschenken im zerfall befinden bleibt der ausstieg aus <hastag> verschwörungsmythen &amp; <hastag> antisemitismus eine psychologische herausforderung - sogar eine gefahr…  <url>" ;
+    ns5:created "2021-07-12T10:43:24Z" ;
+    ns4:content "obwohl sich <hastag> qa <allcaps>non &amp; <hastag> querschenken im zerfall befinden bleibt der ausstieg aus <hastag> verschwörungsmythen &amp; <hastag> antisemitismus eine psychologische herausforderung - sogar eine gefahr…  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "beauftragtgg" ;
+            ns4:name "beauftragtgg" ] ;
+    ns4:id 1414535860427579396 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "querschenken" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "antisemitismus" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "verschwörungsmythen" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 4.166667e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 4.166667e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Death ] ;
+            ns1:ratio 4.166667e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 4.166667e-02 ] .
+
+<https://twitter.com/benndavies/status/1345803901237391360> a ns4:Post ;
+    ns2:isString "so now we have actual evidence that <user> was trying to commit voter fraud. will the <hastag> maga lot open their eyes now or continue to be sheep and blindly follow the orange one who scammed them by not paying tax?" ;
+    ns5:created "2021-01-03T18:47:08Z" ;
+    ns4:content "so now we have actual evidence that <user> was trying to commit voter fraud. will the <hastag> maga lot open their eyes now or continue to be sheep and blindly follow the orange one who scammed them by not paying tax?" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "benndavies" ;
+            ns4:name "benndavies" ] ;
+    ns4:id 1345803901237391360 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United Kingdom" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 5e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 2.5e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 2.5e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Money ] ;
+            ns1:ratio 5e-02 ] .
+
+<https://twitter.com/benndavies/status/1345836198502260737> a ns4:Post ;
+    ns2:isString "<number> is already better than <number> trump was right that there was voter fraud, it was him instigating the fraud! wonder if his <hashtag> maga <allcaps> <allcaps> followers will open their eyes?" ;
+    ns5:created "2021-01-03T20:55:28Z" ;
+    ns4:content "<number> is already better than <number> trump was right that there was voter fraud, it was him instigating the fraud! wonder if his <hashtag> maga <allcaps> <allcaps> followers will open their eyes?" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "benndavies" ;
+            ns4:name "benndavies" ] ;
+    ns4:id 1345836198502260737 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United Kingdom" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 3.448276e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Friend ] ;
+            ns1:ratio 3.448276e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 3.448276e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Reward ] ;
+            ns1:ratio 3.448276e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 3.448276e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Male ] ;
+            ns1:ratio 6.896552e-02 ] .
+
+<https://twitter.com/bloodonthesky/status/1417139329961537540> a ns4:Post ;
+    ns2:isString "jesus h christ. <hastag> qa <allcaps>non is alive and well and mutating into the englishvariant 😳😟🤦🤦😡" ;
+    ns5:created "2021-07-19T15:08:40Z" ;
+    ns4:content "jesus h christ. <hastag> qa <allcaps>non is alive and well and mutating into the englishvariant 😳😟🤦🤦😡" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "bloodonthesky" ;
+            ns4:name "bloodonthesky" ] ;
+    ns4:id 1417139329961537540 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Death ] ;
+            ns1:ratio 7.142857e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Religion ] ;
+            ns1:ratio 1.428571e-01 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 7.142857e-02 ] .
+
+<https://twitter.com/bpb_de/status/1415288469744652289> a ns4:Post ;
+    ns2:isString "ob <hastag> aluhut, <hastag> corona oder <hastag> qa <allcaps>non: das interaktive online-spiel \"wiebkes wirre welt\" klärt über <hastag> verschwörungstheorien auf und gibt tipps, wie man darauf reagieren kann. dazu gibt es material für den unterricht. direkt ausprobieren:  <url> <hastag> twlz" ;
+    ns5:created "2021-07-14T12:34:00Z" ;
+    ns4:content "ob <hastag> aluhut, <hastag> corona oder <hastag> qa <allcaps>non: das interaktive online-spiel \"wiebkes wirre welt\" klärt über <hastag> verschwörungstheorien auf und gibt tipps, wie man darauf reagieren kann. dazu gibt es material für den unterricht. direkt ausprobieren:  <url> <hastag> twlz" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "bpb_de" ;
+            ns4:name "bpb_de" ] ;
+    ns4:id 1415288469744652289 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "verschwörungstheorien" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "twlz" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "aluhut" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "corona" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Leisure ] ;
+            ns1:ratio 2.857143e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 2.857143e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/brechercheteam/status/1416719150353879040> a ns4:Post ;
+    ns2:isString "doku-tipp für montag, <number> uhr in der ar <allcaps><smile> querdenker. mit <hastag> selinafullert (<hastag> querdenken <number> hamburg &amp; <hastag> qa <allcaps>non-anhängerin) und <hastag> leifhansen (querdenken-organisator und ex legida-lobbyist).  <url>" ;
+    ns5:created "2021-07-18T11:19:01Z" ;
+    ns4:content "doku-tipp für montag, <number> uhr in der ar <allcaps><smile> querdenker. mit <hastag> selinafullert (<hastag> querdenken <number> hamburg &amp; <hastag> qa <allcaps>non-anhängerin) und <hastag> leifhansen (querdenken-organisator und ex legida-lobbyist).  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "brechercheteam" ;
+            ns4:name "brechercheteam" ] ;
+    ns4:id 1416719150353879040 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "leifhansen" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "selinafullert" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "querdenken" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 4.166667e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Family ] ;
+            ns1:ratio 4.166667e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/brechercheteam/status/1416872928973570055> a ns4:Post ;
+    ns2:isString "der <hastag> qa <allcaps>non-dude in der mitte (<hastag> floriankuhn aka <hastag> friedensboot) im kreise zweier veteranen vor ort im krisengebiet in nrw <allcaps>. wenn du helden auf wish bestellst und <hastag> querdenken unaufgeforder kommt, weil die flut von der regierung künstlich erzeugt wurde! <hastag> elijahtee  <url>" ;
+    ns5:created "2021-07-18T21:30:05Z" ;
+    ns4:content "der <hastag> qa <allcaps>non-dude in der mitte (<hastag> floriankuhn aka <hastag> friedensboot) im kreise zweier veteranen vor ort im krisengebiet in nrw <allcaps>. wenn du helden auf wish bestellst und <hastag> querdenken unaufgeforder kommt, weil die flut von der regierung künstlich erzeugt wurde! <hastag> elijahtee  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "brechercheteam" ;
+            ns4:name "brechercheteam" ] ;
+    ns4:id 1416872928973570055 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "elijahtee" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "querdenken" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "friedensboot" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "floriankuhn" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 5e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 7.5e-02 ] .
+
+<https://twitter.com/cambskeptics/status/1416057625276526606> a ns4:Post ;
+    ns2:isString "<hastag> qa <allcaps>non followers are joining the <hastag> freebritney movement to end the star's conservatorship, reports <user> for <user>.  <url>" ;
+    ns5:created "2021-07-16T15:30:21Z" ;
+    ns4:content "<hastag> qa <allcaps>non followers are joining the <hastag> freebritney movement to end the star's conservatorship, reports <user> for <user>.  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "cambskeptics" ;
+            ns4:name "cambskeptics" ] ;
+    ns4:id 1416057625276526606 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "freebritney" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 5.555556e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 5.555556e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 5.555556e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Friend ] ;
+            ns1:ratio 5.555556e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/cambskeptics/status/1416866622543962116> a ns4:Post ;
+    ns2:isString "a few years into waiting for “the storm” to sweep away former president donald trump’s enemies, some believers in the prophetic <hastag> qa <allcaps>non conspiracy theory have decided to take matters into their own hands, writes <user> for <user>.  <url>" ;
+    ns5:created "2021-07-18T21:05:01Z" ;
+    ns4:content "a few years into waiting for “the storm” to sweep away former president donald trump’s enemies, some believers in the prophetic <hastag> qa <allcaps>non conspiracy theory have decided to take matters into their own hands, writes <user> for <user>.  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "cambskeptics" ;
+            ns4:name "cambskeptics" ] ;
+    ns4:id 1416866622543962116 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#Annotation>,
+                ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#IngroupVice> ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Religion ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Reward ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Home ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 5.128205e-02 ] .
+
+<https://twitter.com/cambskeptics/status/1416880485813432331> a ns4:Post ;
+    ns2:isString "the pull of <hastag> qa <allcaps>non is strong, and not everyone leaves. in a world where little seems to make sense, qa <allcaps>non’s mythology seems to offer hope, writes marissa melton for <user>.  <url>" ;
+    ns5:created "2021-07-18T22:00:06Z" ;
+    ns4:content "the pull of <hastag> qa <allcaps>non is strong, and not everyone leaves. in a world where little seems to make sense, qa <allcaps>non’s mythology seems to offer hope, writes marissa melton for <user>.  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "cambskeptics" ;
+            ns4:name "cambskeptics" ] ;
+    ns4:id 1416880485813432331 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 3.125e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 6.25e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 3.125e-02 ] .
+
+<https://twitter.com/carpenterdf/status/1386432562545917957> a ns4:Post ;
+    ns2:isString "ho boy that <hashtag> hbo <allcaps> <allcaps> <hastag> qa <allcaps>non documentary is intense isn't it? boy there are some proper insane people in the world <hastag> qanonintothestorm <hastag> intothestorm" ;
+    ns5:created "2021-04-25T21:30:56Z" ;
+    ns4:content "ho boy that <hashtag> hbo <allcaps> <allcaps> <hastag> qa <allcaps>non documentary is intense isn't it? boy there are some proper insane people in the world <hastag> qanonintothestorm <hastag> intothestorm" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "carpenterdf" ;
+            ns4:name "carpenterdf" ] ;
+    ns4:id 1386432562545917957 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "hbo" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanonintothestorm" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "intothestorm" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Male ] ;
+            ns1:ratio 9.090909e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Leisure ] ;
+            ns1:ratio 4.545455e-02 ] .
+
+<https://twitter.com/cartagenero72/status/1414166475728883723> a ns4:Post ;
+    ns2:isString "enriquecimiento cultural en breve en las calles de cartagena <number> / <number> sesiones ininterrumpidas. <hastag> noalcatedecartagena <hastag> stopislam" ;
+    ns5:created "2021-07-11T10:15:36Z" ;
+    ns4:content "enriquecimiento cultural en breve en las calles de cartagena <number> / <number> sesiones ininterrumpidas. <hastag> noalcatedecartagena <hastag> stopislam" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "cartagenero72" ;
+            ns4:name "cartagenero72" ] ;
+    ns4:id 1414166475728883723 ;
+    ns3:inLanguage "es" ;
+    ns3:locationCreated "Spain" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "stopislam" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "noalcatedecartagena" ] .
+
+<https://twitter.com/chrislegal1/status/1416702682702700544> a ns4:Post ;
+    ns2:isString "<user> <user> on brand for <hastag> qanon" ;
+    ns5:created "2021-07-18T10:13:35Z" ;
+    ns4:content "<user> <user> on brand for <hastag> qanon" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "chrislegal1" ;
+            ns4:name "chrislegal1" ] ;
+    ns4:id 1416702682702700544 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] ;
+    <schema:parentItem> "https://twitter.com/joe____00/status/1654054909" .
+
+<https://twitter.com/crappymom007/status/1415715082474950656> a ns4:Post ;
+    ns2:isString "if you haven’t been vaccinated, it’s been nice knowing you! <hashtag> maga <allcaps> <allcaps> <hashtag> fauci <allcaps> <allcaps> <hastag> desantis" ;
+    ns5:created "2021-07-15T16:49:13Z" ;
+    ns4:content "if you haven’t been vaccinated, it’s been nice knowing you! <hashtag> maga <allcaps> <allcaps> <hashtag> fauci <allcaps> <allcaps> <hastag> desantis" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "crappymom007" ;
+            ns4:name "crappymom007" ] ;
+    ns4:id 1415715082474950656 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United States" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "desantis" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "fauci" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 7.692308e-02 ] .
+
+<https://twitter.com/crappymom007/status/1415717606963568648> a ns4:Post ;
+    ns2:isString "hey <hashtag> maga <allcaps> <allcaps> this is your god.  <hastag> crazy" ;
+    ns5:created "2021-07-15T16:59:14Z" ;
+    ns4:content "hey <hashtag> maga <allcaps> <allcaps> this is your god.  <hastag> crazy" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "crappymom007" ;
+            ns4:name "crappymom007" ] ;
+    ns4:id 1415717606963568648 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United States" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "crazy" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 1.25e-01 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Religion ] ;
+            ns1:ratio 1.25e-01 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 1.25e-01 ] .
+
+<https://twitter.com/criticaljourney/status/1416501576059944962> a ns4:Post ;
+    ns2:isString "<hastag> heytucker, yes, your misinformation helps enable the <hastag> deathcult created by <user>. <hastag> republicans are a dying breed due to the <hastag> antivax messaging perpetuated <user>, <user>, <hastag> qa <allcaps>non, etc. thankfully we have immigrants to backfill the population and jobs; phew!" ;
+    ns5:created "2021-07-17T20:54:27Z" ;
+    ns4:content "<hastag> heytucker, yes, your misinformation helps enable the <hastag> deathcult created by <user>. <hastag> republicans are a dying breed due to the <hastag> antivax messaging perpetuated <user>, <user>, <hastag> qa <allcaps>non, etc. thankfully we have immigrants to backfill the population and jobs; phew!" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "criticaljourney" ;
+            ns4:name "criticaljourney" ] ;
+    ns4:id 1416501576059944962 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "heytucker" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "antivax" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "deathcult" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "republicans" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Death ] ;
+            ns1:ratio 5.405405e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 5.405405e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 8.108108e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 2.702703e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 8.108108e-02 ],
+        [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#Annotation>,
+                ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#IngroupVice> ] ;
+            ns1:ratio 2.702703e-02 ] .
+
+<https://twitter.com/dd_nazifrei/status/1416438196276187139> a ns4:Post ;
+    ns2:isString "hinzu kommt noch, dass in teilen der verschwörungsszene wie bspw. bei den auch bei <hastag> querdenken vertretenen <hastag> qa <allcaps>non-jünger*innen die wahnwitzige wie perfide lüge verbreitet wird, die umweltkatastrophe wäre von bösen mächten mit geheimen technologien herbeigeführt worden.<hastag> fghtqrdnkn" ;
+    ns5:created "2021-07-17T16:42:36Z" ;
+    ns4:content "hinzu kommt noch, dass in teilen der verschwörungsszene wie bspw. bei den auch bei <hastag> querdenken vertretenen <hastag> qa <allcaps>non-jünger*innen die wahnwitzige wie perfide lüge verbreitet wird, die umweltkatastrophe wäre von bösen mächten mit geheimen technologien herbeigeführt worden.<hastag> fghtqrdnkn" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "dd_nazifrei" ;
+            ns4:name "dd_nazifrei" ] ;
+    ns4:id 1416438196276187139 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "querdenken" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "fghtqrdnkn" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 2.857143e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 5.714286e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 2.857143e-02 ] .
+
+<https://twitter.com/dd_nazifrei/status/1417051244028383234> a ns4:Post ;
+    ns2:isString "<hastag> querdenken <hastag> elternstehenauf <hastag> qa <allcaps>non-jünger*innen und <hastag> rechtehetzer*innen verbreiten auf ihren kanälen massenhaft schäbigste <hastag> fakenews, die viele andere diskreditieren und verteufeln. gleichzeitig inszenieren sie sich selbst als die wahren <hastag> helfer*innen in der not. <hastag> kickthemout" ;
+    ns5:created "2021-07-19T09:18:38Z" ;
+    ns4:content "<hastag> querdenken <hastag> elternstehenauf <hastag> qa <allcaps>non-jünger*innen und <hastag> rechtehetzer*innen verbreiten auf ihren kanälen massenhaft schäbigste <hastag> fakenews, die viele andere diskreditieren und verteufeln. gleichzeitig inszenieren sie sich selbst als die wahren <hastag> helfer*innen in der not. <hastag> kickthemout" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "dd_nazifrei" ;
+            ns4:name "dd_nazifrei" ] ;
+    ns4:id 1417051244028383234 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "querdenken" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "helfer" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "elternstehenauf" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "kickthemout" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "rechtehetzer" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "fakenews" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 3.225806e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Money ] ;
+            ns1:ratio 3.225806e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 3.225806e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Family ] ;
+            ns1:ratio 3.225806e-02 ] .
+
+<https://twitter.com/digitalmadnessp/status/1416169283642609671> a ns4:Post ;
+    ns2:isString "bring the fire! we deliver the rain and the storm. <repeat>  <hastag> qanon <hastag> &lt;<number>   . <repeat> pssssst . <repeat> there is no \"qa <allcaps>non\". never was.  <smile>" ;
+    ns5:created "2021-07-16T22:54:03Z" ;
+    ns4:content "bring the fire! we deliver the rain and the storm. <repeat>  <hastag> qanon <hastag> &lt;<number>   . <repeat> pssssst . <repeat> there is no \"qa <allcaps>non\". never was.  <smile>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "digitalmadnessp" ;
+            ns4:name "digitalmadnessp" ] ;
+    ns4:id 1416169283642609671 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 3.846154e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 3.846154e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/donateespada/status/1346091374265954305> a ns4:Post ;
+    ns2:isString "ésto se sale ya de madre! <repeat> es inaudito que el gobierno consienta está invasión de bárbaros! <repeat> la historia parece que se repite! <repeat> con lo que costó erradicar la invasión musulmana! <repeat> <hastag> stopislam  <hastag> deportacionilegales" ;
+    ns5:created "2021-01-04T13:49:27Z" ;
+    ns4:content "ésto se sale ya de madre! <repeat> es inaudito que el gobierno consienta está invasión de bárbaros! <repeat> la historia parece que se repite! <repeat> con lo que costó erradicar la invasión musulmana! <repeat> <hastag> stopislam  <hastag> deportacionilegales" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "donateespada" ;
+            ns4:name "donateespada" ] ;
+    ns4:id 1346091374265954305 ;
+    ns3:inLanguage "es" ;
+    ns3:locationCreated "Spain" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "deportacionilegales" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "stopislam" ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 3.030303e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Money ] ;
+            ns1:ratio 3.030303e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Religion ] ;
+            ns1:ratio 3.030303e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Family ] ;
+            ns1:ratio 3.030303e-02 ] .
+
+<https://twitter.com/donateespada/status/1366280962988982272> a ns4:Post ;
+    ns2:isString "se puede consentir ésto? <repeat> cuándo despertará españa? <repeat> <hastag> stopislam" ;
+    ns5:created "2021-03-01T06:55:40Z" ;
+    ns4:content "se puede consentir ésto? <repeat> cuándo despertará españa? <repeat> <hastag> stopislam" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "donateespada" ;
+            ns4:name "donateespada" ] ;
+    ns4:id 1366280962988982272 ;
+    ns3:inLanguage "es" ;
+    ns3:locationCreated "Spain" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "stopislam" ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 1.25e-01 ] .
+
+<https://twitter.com/donmart67439221/status/1415723603748872194> a ns4:Post ;
+    ns2:isString "<user> blimmin’ hell lady g. <repeat>and people wonder why america is every other country's laughing gag  <user>   <hashtag> maga <allcaps> <allcaps> <hastag> qa <allcaps>noncult <hastag> dumbfuck  <url>" ;
+    ns5:created "2021-07-15T17:23:04Z" ;
+    ns4:content "<user> blimmin’ hell lady g. <repeat>and people wonder why america is every other country's laughing gag  <user>   <hashtag> maga <allcaps> <allcaps> <hastag> qa <allcaps>noncult <hastag> dumbfuck  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "donmart67439221" ;
+            ns4:name "donmart67439221" ] ;
+    ns4:id 1415723603748872194 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United Kingdom" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanoncult" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "dumbfuck" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 4.166667e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 4.166667e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Religion ] ;
+            ns1:ratio 4.166667e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Female ] ;
+            ns1:ratio 4.166667e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 4.166667e-02 ] ;
+    <schema:parentItem> "https://twitter.com/thehill/status/1917731" .
+
+<https://twitter.com/er_bayern/status/1415292937244663811> a ns4:Post ;
+    ns2:isString "<user> <user> <user> ist das die anfrage, in der das stmi <allcaps> behauptet, es könne auch <hastag> qa <allcaps>non auf dem boden des grundgesetzes geben, weil der kult an sich kein beobachtungsobjekt ist?" ;
+    ns5:created "2021-07-14T12:51:45Z" ;
+    ns4:content "<user> <user> <user> ist das die anfrage, in der das stmi <allcaps> behauptet, es könne auch <hastag> qa <allcaps>non auf dem boden des grundgesetzes geben, weil der kult an sich kein beobachtungsobjekt ist?" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "er_bayern" ;
+            ns4:name "er_bayern" ] ;
+    ns4:id 1415292937244663811 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 3.333333e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] ;
+    <schema:parentItem> "https://twitter.com/Simmerl19/status/212861749" .
+
+<https://twitter.com/falky_de/status/1415630624430379010> a ns4:Post ;
+    ns2:isString "<user> laschet goes <number>% <hastag> trump:  <hastag> maga <allcaps><smile>eutschlandgemeinsammachen <hastag> foxnews <allcaps>=bildlive <hastag> alternativefacts=brandschutz" ;
+    ns5:created "2021-07-15T11:13:36Z" ;
+    ns4:content "<user> laschet goes <number>% <hastag> trump:  <hastag> maga <allcaps><smile>eutschlandgemeinsammachen <hastag> foxnews <allcaps>=bildlive <hastag> alternativefacts=brandschutz" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "falky_de" ;
+            ns4:name "falky_de" ] ;
+    ns4:id 1415630624430379010 ;
+    ns3:inLanguage "de" ;
+    ns3:locationCreated "Germany" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "trump" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "alternativefacts" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "foxnews" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 1.111111e-01 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 1.111111e-01 ] ;
+    <schema:parentItem> "https://twitter.com/FrauGodot/status/182416714" .
+
+<https://twitter.com/fdw_vb/status/1402696543493406725> a ns4:Post ;
+    ns2:isString "the pakistani <hastag> mosque in <hastag> antwerpen is finally losing its official recognition. since <number> <hastag> vlaamsbelang has been campaigning against this fundamentalist mosque financed by terror state <hastag> pakistan. who perseveres wins. <repeat> <hastag> stopislam  <url>" ;
+    ns5:created "2021-06-09T18:38:11Z" ;
+    ns4:content "the pakistani <hastag> mosque in <hastag> antwerpen is finally losing its official recognition. since <number> <hastag> vlaamsbelang has been campaigning against this fundamentalist mosque financed by terror state <hastag> pakistan. who perseveres wins. <repeat> <hastag> stopislam  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "fdw_vb" ;
+            ns4:name "fdw_vb" ] ;
+    ns4:id 1402696543493406725 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "Belgium" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "vlaamsbelang" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "antwerpen" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "mosque" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "stopislam" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "pakistan" ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 6.25e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 1.25e-01 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Risk ] ;
+            ns1:ratio 3.125e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Reward ] ;
+            ns1:ratio 3.125e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 9.375e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 3.125e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Sad ] ;
+            ns1:ratio 3.125e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Religion ] ;
+            ns1:ratio 9.375e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 3.125e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anxiety ] ;
+            ns1:ratio 3.125e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Money ] ;
+            ns1:ratio 3.125e-02 ] .
+
+<https://twitter.com/frederikbj1/status/1415619141713768449> a ns4:Post ;
+    ns2:isString "<user> truth isn't true said <hastag> giuliani . is that the <hashtag> maga <allcaps> <allcaps> way to root the word \"truth\" out of the american vocabulary? so just like the japanese had no word for surrender, americans won't have a word for truth anymore. lack of words didn't help japan, they learned it the hard way." ;
+    ns5:created "2021-07-15T10:27:58Z" ;
+    ns4:content "<user> truth isn't true said <hastag> giuliani . is that the <hashtag> maga <allcaps> <allcaps> way to root the word \"truth\" out of the american vocabulary? so just like the japanese had no word for surrender, americans won't have a word for truth anymore. lack of words didn't help japan, they learned it the hard way." ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "frederikbj1" ;
+            ns4:name "frederikbj1" ] ;
+    ns4:id 1415619141713768449 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "Denmark" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "giuliani" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 9.615385e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 1.923077e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Reward ] ;
+            ns1:ratio 1.923077e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 1.923077e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Risk ] ;
+            ns1:ratio 1.923077e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 1.923077e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 3.846154e-02 ] ;
+    <schema:parentItem> "https://twitter.com/tedcruz/status/23022687" .
+
+<https://twitter.com/freedom90919282/status/1415625266869776385> a ns4:Post ;
+    ns2:isString "good morning to all america loving, freedom preserving, and god honoring patriots!   <hastag> loveamerica <hashtag> maga <allcaps> <allcaps> <hastag> <number>a <hastag> lawandorder" ;
+    ns5:created "2021-07-15T10:52:19Z" ;
+    ns4:content "good morning to all america loving, freedom preserving, and god honoring patriots!   <hastag> loveamerica <hashtag> maga <allcaps> <allcaps> <hastag> <number>a <hastag> lawandorder" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "freedom90919282" ;
+            ns4:name "freedom90919282" ] ;
+    ns4:id 1415625266869776385 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United States" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "2a" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "lawandorder" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "loveamerica" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 1.666667e-01 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 5.555556e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Reward ] ;
+            ns1:ratio 5.555556e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 2.222222e-01 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 5.555556e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Religion ] ;
+            ns1:ratio 5.555556e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 5.555556e-02 ] .
+
+<https://twitter.com/fundamentalfund/status/1415396222022701060> a ns4:Post ;
+    ns2:isString "<user> you should also remove <hastag> qanon and <hastag> antivaccine posts asap <allcaps>! or at least we should be able to report these false information tweets to you! why are you still generating these false information tweets? <repeat> <user> <user> <user>" ;
+    ns5:created "2021-07-14T19:42:10Z" ;
+    ns4:content "<user> you should also remove <hastag> qanon and <hastag> antivaccine posts asap <allcaps>! or at least we should be able to report these false information tweets to you! why are you still generating these false information tweets? <repeat> <user> <user> <user>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "fundamentalfund" ;
+            ns4:name "fundamentalfund" ] ;
+    ns4:id 1415396222022701060 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "antivaccine" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 8.108108e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 2.702703e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 2.702703e-02 ] ;
+    <schema:parentItem> "https://twitter.com/Twitter/status/783214" .
+
+<https://twitter.com/gagarrido3/status/1379801187801792514> a ns4:Post ;
+    ns2:isString "non perdan: «en el ojo del huracán»  / inti the storm», en hbo <allcaps>. no lo pierdan. <hastag> qa <allcaps>non <hashtag> q <allcaps>  <url>" ;
+    ns5:created "2021-04-07T14:20:13Z" ;
+    ns4:content "non perdan: «en el ojo del huracán»  / inti the storm», en hbo <allcaps>. no lo pierdan. <hastag> qa <allcaps>non <hashtag> q <allcaps>  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "gagarrido3" ;
+            ns4:name "gagarrido3" ] ;
+    ns4:id 1379801187801792514 ;
+    ns3:inLanguage "es" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "q" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/govierbill/status/1415710407738626048> a ns4:Post ;
+    ns2:isString "hey <allcaps> <hashtag> maga <allcaps> <allcaps> how <allcaps> are <allcaps> you <allcaps> doing <allcaps> today <allcaps>?" ;
+    ns5:created "2021-07-15T16:30:38Z" ;
+    ns4:content "hey <allcaps> <hashtag> maga <allcaps> <allcaps> how <allcaps> are <allcaps> you <allcaps> doing <allcaps> today <allcaps>?" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "govierbill" ;
+            ns4:name "govierbill" ] ;
+    ns4:id 1415710407738626048 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United States" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/grassdackel32/status/1414312919190417410> a ns4:Post ;
+    ns2:isString "<user> <user> <user> <user> <user> nein, aber wenn sie so weiter machen, laufen sie <hastag> qanon den rang ab." ;
+    ns5:created "2021-07-11T19:57:31Z" ;
+    ns4:content "<user> <user> <user> <user> <user> nein, aber wenn sie so weiter machen, laufen sie <hastag> qanon den rang ab." ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "grassdackel32" ;
+            ns4:name "grassdackel32" ] ;
+    ns4:id 1414312919190417410 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Leisure ] ;
+            ns1:ratio 5.555556e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 5.555556e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 5.555556e-02 ] ;
+    <schema:parentItem> "https://twitter.com/Michael_Kunz/status/112526774" .
+
+<https://twitter.com/haaohaoo/status/1415332799486308354> a ns4:Post ;
+    ns2:isString "<hastag> dougjensen, who was wearing a <hastag> qa <allcaps>non t-shirt during the <hastag> capitolriot, was granted pretrial release under control, as video showed him shouting \"storm the white house!\"  <elong>judge <hastag> timkelly said \"he had no basic understanding of where he even was that day\"  <url>" ;
+    ns5:created "2021-07-14T15:30:09Z" ;
+    ns4:content "<hastag> dougjensen, who was wearing a <hastag> qa <allcaps>non t-shirt during the <hastag> capitolriot, was granted pretrial release under control, as video showed him shouting \"storm the white house!\"  <elong>judge <hastag> timkelly said \"he had no basic understanding of where he even was that day\"  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "haaohaoo" ;
+            ns4:name "haaohaoo" ] ;
+    ns4:id 1415332799486308354 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "dougjensen" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "timkelly" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "capitolriot" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 6.818182e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Leisure ] ;
+            ns1:ratio 2.272727e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Male ] ;
+            ns1:ratio 6.818182e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#Annotation>,
+                ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#AuthorityVirtue> ] ;
+            ns1:ratio 2.272727e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Home ] ;
+            ns1:ratio 2.272727e-02 ] .
+
+<https://twitter.com/hblodel/status/1381182901660880897> a ns4:Post ;
+    ns2:isString "<user> frage:  wie unterscheiden sich <hastag> qa <allcaps>non, <hastag> reichsbürger und <hastag> coronaleugner zu der <user> ?  antwort: nur letztere sitzen in der regierung!  <hastag> servicetweet" ;
+    ns5:created "2021-04-11T09:50:39Z" ;
+    ns4:content "<user> frage:  wie unterscheiden sich <hastag> qa <allcaps>non, <hastag> reichsbürger und <hastag> coronaleugner zu der <user> ?  antwort: nur letztere sitzen in der regierung!  <hastag> servicetweet" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "hblodel" ;
+            ns4:name "hblodel" ] ;
+    ns4:id 1381182901660880897 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "reichsbürger" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "servicetweet" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "coronaleugner" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Money ] ;
+            ns1:ratio 4.166667e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 4.166667e-02 ] ;
+    <schema:parentItem> "https://twitter.com/SVPch/status/168790724" .
+
+<https://twitter.com/islalvr/status/1415706120736346117> a ns4:Post ;
+    ns2:isString "the guardian obtained leaked secret kremlin docs:  <elong>kremlin / putin knew trump was unstable, wanted him elected, so they could control him.  kremlin / putin holding blackmail from trump visits to russia.   <url>  <hastag> resist  <hashtag> maga <allcaps> <allcaps>  <hastag> trumpwasputinsbitch" ;
+    ns5:created "2021-07-15T16:13:36Z" ;
+    ns4:content "the guardian obtained leaked secret kremlin docs:  <elong>kremlin / putin knew trump was unstable, wanted him elected, so they could control him.  kremlin / putin holding blackmail from trump visits to russia.   <url>  <hastag> resist  <hashtag> maga <allcaps> <allcaps>  <hastag> trumpwasputinsbitch" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "islalvr" ;
+            ns4:name "islalvr" ] ;
+    ns4:id 1415706120736346117 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United States" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "resist" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "trumpwasputinsbitch" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 2.5e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 5e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Reward ] ;
+            ns1:ratio 2.5e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Risk ] ;
+            ns1:ratio 2.5e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Male ] ;
+            ns1:ratio 5e-02 ],
+        [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#Annotation>,
+                ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#HarmVirtue> ] ;
+            ns1:ratio 2.5e-02 ] .
+
+<https://twitter.com/islalvr/status/1415707292096401420> a ns4:Post ;
+    ns2:isString "bwahahaha! <repeat>  .<user> is a little snowflake crying about parody websites while allowing her pervert hubby to roam around bowling alleys whipping out his penis to show little girls.   <url>  <hastag> resist  <hashtag> maga <allcaps> <allcaps>" ;
+    ns5:created "2021-07-15T16:18:15Z" ;
+    ns4:content "bwahahaha! <repeat>  .<user> is a little snowflake crying about parody websites while allowing her pervert hubby to roam around bowling alleys whipping out his penis to show little girls.   <url>  <hastag> resist  <hashtag> maga <allcaps> <allcaps>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "islalvr" ;
+            ns4:name "islalvr" ] ;
+    ns4:id 1415707292096401420 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United States" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "resist" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Leisure ] ;
+            ns1:ratio 2.777778e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Family ] ;
+            ns1:ratio 2.777778e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Male ] ;
+            ns1:ratio 5.555556e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Female ] ;
+            ns1:ratio 5.555556e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 5.555556e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Sad ] ;
+            ns1:ratio 2.777778e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 5.555556e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 2.777778e-02 ],
+        [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#Annotation>,
+                ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#PurityVice> ] ;
+            ns1:ratio 2.777778e-02 ] .
+
+<https://twitter.com/islalvr/status/1415709672305307650> a ns4:Post ;
+    ns2:isString "trump:  the world didn't laugh at us when i was pres!  oh yes it did.  video of un <allcaps> laughing at trump when he said he had accomplished more than any pres in history.   <url>  <hastag> resist  <hashtag> maga <allcaps> <allcaps>  <hastag> trumpwasal <allcaps>aughingstock" ;
+    ns5:created "2021-07-15T16:27:43Z" ;
+    ns4:content "trump:  the world didn't laugh at us when i was pres!  oh yes it did.  video of un <allcaps> laughing at trump when he said he had accomplished more than any pres in history.   <url>  <hastag> resist  <hashtag> maga <allcaps> <allcaps>  <hastag> trumpwasal <allcaps>aughingstock" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "islalvr" ;
+            ns4:name "islalvr" ] ;
+    ns4:id 1415709672305307650 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United States" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "trumpwasalaughingstock" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "resist" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Leisure ] ;
+            ns1:ratio 2.222222e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 2.222222e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 2.222222e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 2.222222e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Male ] ;
+            ns1:ratio 4.444444e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 2.222222e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 4.444444e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/islalvr/status/1415722268299300868> a ns4:Post ;
+    ns2:isString "two <number>-year old girls stupidsplain mlk <allcaps> jr.  <hastag> resist  <hashtag> maga <allcaps> <allcaps>  <hastag> cantcooptmlk <allcaps>  <url>" ;
+    ns5:created "2021-07-15T17:17:46Z" ;
+    ns4:content "two <number>-year old girls stupidsplain mlk <allcaps> jr.  <hastag> resist  <hashtag> maga <allcaps> <allcaps>  <hastag> cantcooptmlk <allcaps>  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "islalvr" ;
+            ns4:name "islalvr" ] ;
+    ns4:id 1415722268299300868 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United States" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "resist" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "cantcooptmlk" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Female ] ;
+            ns1:ratio 6.666667e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 6.666667e-02 ] .
+
+<https://twitter.com/islalvr/status/1415724579885027333> a ns4:Post ;
+    ns2:isString "still a shit-show that won't wash with any judge whatsoever.   <url>  <hastag> resist  <hashtag> maga <allcaps> <allcaps>  <hastag> clusterfuckcartoon" ;
+    ns5:created "2021-07-15T17:26:57Z" ;
+    ns4:content "still a shit-show that won't wash with any judge whatsoever.   <url>  <hastag> resist  <hashtag> maga <allcaps> <allcaps>  <hastag> clusterfuckcartoon" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "islalvr" ;
+            ns4:name "islalvr" ] ;
+    ns4:id 1415724579885027333 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United States" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "resist" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "clusterfuckcartoon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 5.263158e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Reward ] ;
+            ns1:ratio 5.263158e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 5.263158e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 1.052632e-01 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 5.263158e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 5.263158e-02 ] .
+
+<https://twitter.com/islalvr/status/1415725485737365513> a ns4:Post ;
+    ns2:isString "so judges can be disqualified for \"believed to be a registered democrat,\" or for \"believed to be a registered republican\" ? <repeat>     <url>  <hastag> resist  <hashtag> maga <allcaps> <allcaps>  <hastag> sillyshit  <hastag> aza <allcaps>udit" ;
+    ns5:created "2021-07-15T17:30:33Z" ;
+    ns4:content "so judges can be disqualified for \"believed to be a registered democrat,\" or for \"believed to be a registered republican\" ? <repeat>     <url>  <hastag> resist  <hashtag> maga <allcaps> <allcaps>  <hastag> sillyshit  <hastag> aza <allcaps>udit" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "islalvr" ;
+            ns4:name "islalvr" ] ;
+    ns4:id 1415725485737365513 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United States" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "azaudit" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "sillyshit" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "resist" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 5.882353e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 5.882353e-02 ] .
+
+<https://twitter.com/islalvr/status/1415728531431206913> a ns4:Post ;
+    ns2:isString "and <number> dead americans are asking,  \"why me, lord?\"   <url>  <hastag> resist  <hashtag> maga <allcaps> <allcaps>  <hastag> idiot  <hastag> stupidburns" ;
+    ns5:created "2021-07-15T17:42:39Z" ;
+    ns4:content "and <number> dead americans are asking,  \"why me, lord?\"   <url>  <hastag> resist  <hashtag> maga <allcaps> <allcaps>  <hastag> idiot  <hastag> stupidburns" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "islalvr" ;
+            ns4:name "islalvr" ] ;
+    ns4:id 1415728531431206913 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United States" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "resist" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "stupidburns" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "idiot" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 9.52381e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Death ] ;
+            ns1:ratio 4.761905e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Religion ] ;
+            ns1:ratio 4.761905e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 4.761905e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 4.761905e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/islalvr/status/1415735046187716611> a ns4:Post ;
+    ns2:isString "<hastag> fultoncounty   <hashtag> maga <allcaps> <allcaps> people going wild!    <number> ballots scanned twice.  forgot to mention, error was discovered, and not included in final tally." ;
+    ns5:created "2021-07-15T18:08:32Z" ;
+    ns4:content "<hastag> fultoncounty   <hashtag> maga <allcaps> <allcaps> people going wild!    <number> ballots scanned twice.  forgot to mention, error was discovered, and not included in final tally." ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "islalvr" ;
+            ns4:name "islalvr" ] ;
+    ns4:id 1415735046187716611 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United States" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "fultoncounty" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/jasoncoulson6/status/1415680416762064907> a ns4:Post ;
+    ns2:isString "<user> “we the people “ ? … lol 😂. we the far right conspiracy loving nutters want the fuhhre back . <hashtag> maga <allcaps> <allcaps> 😂" ;
+    ns5:created "2021-07-15T14:31:28Z" ;
+    ns4:content "<user> “we the people “ ? … lol 😂. we the far right conspiracy loving nutters want the fuhhre back . <hashtag> maga <allcaps> <allcaps> 😂" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "jasoncoulson6" ;
+            ns4:name "jasoncoulson6" ] ;
+    ns4:id 1415680416762064907 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United Kingdom" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 8.695652e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 1.304348e-01 ] ;
+    <schema:parentItem> "https://twitter.com/Mully1897/status/1268389327" .
+
+<https://twitter.com/jdpoc/status/1416406896144224260> a ns4:Post ;
+    ns2:isString "<user> <user> welcome to day <number> of the official voice of <hastag> qa <allcaps>non making a non-story of a government asking a social media platform to protect its users from dangerous misinformation which kills.  greenwald was so respected, once. my god, that seems so long ago." ;
+    ns5:created "2021-07-17T14:38:14Z" ;
+    ns4:content "<user> <user> welcome to day <number> of the official voice of <hastag> qa <allcaps>non making a non-story of a government asking a social media platform to protect its users from dangerous misinformation which kills.  greenwald was so respected, once. my god, that seems so long ago." ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "jdpoc" ;
+            ns4:name "jdpoc" ] ;
+    ns4:id 1416406896144224260 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Religion ] ;
+            ns1:ratio 2.222222e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 2.222222e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 8.888889e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 4.444444e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 4.444444e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 2.222222e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Risk ] ;
+            ns1:ratio 4.444444e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Death ] ;
+            ns1:ratio 2.222222e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 4.444444e-02 ],
+        [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#Annotation>,
+                ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#HarmVirtue> ] ;
+            ns1:ratio 2.222222e-02 ] ;
+    <schema:parentItem> "https://twitter.com/ggreenwald/status/16076032" .
+
+<https://twitter.com/jonblacklock/status/1345541008260558850> a ns4:Post ;
+    ns2:isString "<user> next time you talk to your friend rupert let him know that he has very good financial journalists &amp; forensic too. keep <hashtag> maga <allcaps> <allcaps> - making another grift again. guess where the money you’re giving is going? a state bank in china and a state backed russian bank  <url>" ;
+    ns5:created "2021-01-03T01:22:29Z" ;
+    ns4:content "<user> next time you talk to your friend rupert let him know that he has very good financial journalists &amp; forensic too. keep <hashtag> maga <allcaps> <allcaps> - making another grift again. guess where the money you’re giving is going? a state bank in china and a state backed russian bank  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "jonblacklock" ;
+            ns4:name "jonblacklock" ] ;
+    ns4:id 1345541008260558850 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United Kingdom" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Friend ] ;
+            ns1:ratio 2e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Reward ] ;
+            ns1:ratio 2e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 4e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Male ] ;
+            ns1:ratio 4e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 2e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Money ] ;
+            ns1:ratio 8e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 6e-02 ] ;
+    <schema:parentItem> "https://twitter.com/realDonaldTrump/status/25073877" .
+
+<https://twitter.com/jonblacklock/status/1345865275548307463> a ns4:Post ;
+    ns2:isString "<user> are we about to get a greatest hits of crime admissions? only $<number> for a download with a <hashtag> maga <allcaps> <allcaps> discount? who can forget the “grab em’ by the pussy” or “we only need <number> votes”. <hastag> trumpcrimefamilyforprison<number> <hastag> trumptapes" ;
+    ns5:created "2021-01-03T22:51:01Z" ;
+    ns4:content "<user> are we about to get a greatest hits of crime admissions? only $<number> for a download with a <hashtag> maga <allcaps> <allcaps> discount? who can forget the “grab em’ by the pussy” or “we only need <number> votes”. <hastag> trumpcrimefamilyforprison<number> <hastag> trumptapes" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "jonblacklock" ;
+            ns4:name "jonblacklock" ] ;
+    ns4:id 1345865275548307463 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United Kingdom" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "trumptapes" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "trumpcrimefamilyforprison2021" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Money ] ;
+            ns1:ratio 2.631579e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Reward ] ;
+            ns1:ratio 2.631579e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 2.631579e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 5.263158e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 2.631579e-02 ] .
+
+<https://twitter.com/juedischeonline/status/1414260713900716036> a ns4:Post ;
+    ns2:isString "der neue kurs von facebook und twitter zeigt wirkung: verschwörungstheoretiker sind nicht mehr so präsent wie früher. das heißt aber nicht, dass die anhänger der blockierten accounts aus dem internet verschwunden wären. <hastag> hintergrund <hastag> qanon  <url>" ;
+    ns5:created "2021-07-11T16:30:04Z" ;
+    ns4:content "der neue kurs von facebook und twitter zeigt wirkung: verschwörungstheoretiker sind nicht mehr so präsent wie früher. das heißt aber nicht, dass die anhänger der blockierten accounts aus dem internet verschwunden wären. <hastag> hintergrund <hastag> qanon  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "juedischeonline" ;
+            ns4:name "juedischeonline" ] ;
+    ns4:id 1414260713900716036 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "hintergrund" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 2.777778e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Money ] ;
+            ns1:ratio 2.777778e-02 ] .
+
+<https://twitter.com/lancelott2/status/1375887011995869189> a ns4:Post ;
+    ns2:isString "der film <hastag> contagion steht ja bei den schwurblern nicht auf der liste.  dabei wird das eindrucksvoll erläutert, warum schwurbler schwurbeln.  <hastag> hildmann <hastag> querdenker <hastag> qanon" ;
+    ns5:created "2021-03-27T19:06:41Z" ;
+    ns4:content "der film <hastag> contagion steht ja bei den schwurblern nicht auf der liste.  dabei wird das eindrucksvoll erläutert, warum schwurbler schwurbeln.  <hastag> hildmann <hastag> querdenker <hastag> qanon" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "lancelott2" ;
+            ns4:name "lancelott2" ] ;
+    ns4:id 1375887011995869189 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "querdenker" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "hildmann" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "contagion" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#Annotation>,
+                ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#PurityVice> ] ;
+            ns1:ratio 4e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Leisure ] ;
+            ns1:ratio 4e-02 ] .
+
+<https://twitter.com/lancelott2/status/1415097078309588994> a ns4:Post ;
+    ns2:isString "<hastag> qa <allcaps>non s, <hastag> hildmann und <hastag> querdenker können als überhaupt kein englisch und definitiv keinen vernünftigen <number> satz.  die bekommen von mir nicht mal <number> tg <allcaps> (telegram)." ;
+    ns5:created "2021-07-13T23:53:29Z" ;
+    ns4:content "<hastag> qa <allcaps>non s, <hastag> hildmann und <hastag> querdenker können als überhaupt kein englisch und definitiv keinen vernünftigen <number> satz.  die bekommen von mir nicht mal <number> tg <allcaps> (telegram)." ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "lancelott2" ;
+            ns4:name "lancelott2" ] ;
+    ns4:id 1415097078309588994 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "hildmann" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "querdenker" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 3.846154e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 3.846154e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/lancelott2/status/1415358614240378881> a ns4:Post ;
+    ns2:isString "hier nun, die neue deutsche „cybersicherheitsstrategie.“  jetzt wirds also eng für die <hastag> quertrottel, <hastag> hildmann s und <hastag> qa <allcaps>non.  seit freitag legt der staat los!  das wird lustig, weil von it <allcaps> haben diese gruppen ja absolut null ahnung! <smile>   <url>" ;
+    ns5:created "2021-07-14T17:12:44Z" ;
+    ns4:content "hier nun, die neue deutsche „cybersicherheitsstrategie.“  jetzt wirds also eng für die <hastag> quertrottel, <hastag> hildmann s und <hastag> qa <allcaps>non.  seit freitag legt der staat los!  das wird lustig, weil von it <allcaps> haben diese gruppen ja absolut null ahnung! <smile>   <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "lancelott2" ;
+            ns4:name "lancelott2" ] ;
+    ns4:id 1415358614240378881 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "quertrottel" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "hildmann" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Leisure ] ;
+            ns1:ratio 2.325581e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 4.651163e-02 ] .
+
+<https://twitter.com/lancelott2/status/1416399991090917379> a ns4:Post ;
+    ns2:isString "frau meint, die affen von <hastag> qa <allcaps>non.  🤣🤣🤣🤣" ;
+    ns5:created "2021-07-17T14:10:47Z" ;
+    ns4:content "frau meint, die affen von <hastag> qa <allcaps>non.  🤣🤣🤣🤣" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "lancelott2" ;
+            ns4:name "lancelott2" ] ;
+    ns4:id 1416399991090917379 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Family ] ;
+            ns1:ratio 1.25e-01 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/liz_de/status/1391741120942587912> a ns4:Post ;
+    ns2:isString "übers wochenende haben sich schwurbler von <hastag> qa <allcaps>non an einem laden in der eisi ausgetobt. <hastag> antisemitismus in <hastag> leipzig? nein danke!  <elong>wir sehen uns beim gegenprotest heute <number> uhr am <hastag> naturkundemuseum, wenn sich die rechte sammelbewegung „bürgerbewegung <number>“ wieder zum hetzen trifft  <url>" ;
+    ns5:created "2021-05-10T13:05:15Z" ;
+    ns4:content "übers wochenende haben sich schwurbler von <hastag> qa <allcaps>non an einem laden in der eisi ausgetobt. <hastag> antisemitismus in <hastag> leipzig? nein danke!  <elong>wir sehen uns beim gegenprotest heute <number> uhr am <hastag> naturkundemuseum, wenn sich die rechte sammelbewegung „bürgerbewegung <number>“ wieder zum hetzen trifft  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "liz_de" ;
+            ns4:name "liz_de" ] ;
+    ns4:id 1391741120942587912 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "leipzig" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "antisemitismus" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "naturkundemuseum" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Money ] ;
+            ns1:ratio 2.272727e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 2.272727e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 2.272727e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/lucas_j_bender/status/1415647457766170627> a ns4:Post ;
+    ns2:isString "irgendwie will ich eine <hastag> maga <allcaps>-kappe. so. <repeat> als andenken." ;
+    ns5:created "2021-07-15T12:20:30Z" ;
+    ns4:content "irgendwie will ich eine <hastag> maga <allcaps>-kappe. so. <repeat> als andenken." ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "lucas_j_bender" ;
+            ns4:name "lucas_j_bender" ] ;
+    ns4:id 1415647457766170627 ;
+    ns3:inLanguage "de" ;
+    ns3:locationCreated "Germany" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/magamycology/status/1417124566862897156> a ns4:Post ;
+    ns2:isString "i will just leave this here. <hastag> qa <allcaps>non <hastag> q<number> <hashtag> q <allcaps> <hastag> wwg <allcaps><number>wga <allcaps> <user> is fooooooked  <url>" ;
+    ns5:created "2021-07-19T14:10:00Z" ;
+    ns4:content "i will just leave this here. <hastag> qa <allcaps>non <hastag> q<number> <hashtag> q <allcaps> <hastag> wwg <allcaps><number>wga <allcaps> <user> is fooooooked  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "magamycology" ;
+            ns4:name "magamycology" ] ;
+    ns4:id 1417124566862897156 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "q2021" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "q" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "wwg1wga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/marsdenpa/status/1345042538772787200> a ns4:Post ;
+    ns2:isString "<hastag> maga <allcaps>-nificent ! <repeat>   <user> setting the tone for <number>  <hastag> liverpool <hastag> streetart <hastag> happynewyear<number>  <url>" ;
+    ns5:created "2021-01-01T16:21:45Z" ;
+    ns4:content "<hastag> maga <allcaps>-nificent ! <repeat>   <user> setting the tone for <number>  <hastag> liverpool <hastag> streetart <hastag> happynewyear<number>  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "marsdenpa" ;
+            ns4:name "marsdenpa" ] ;
+    ns4:id 1345042538772787200 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "Switzerland" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "streetart" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "happynewyear2021" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "liverpool" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/martingertsch/status/1398105502844850176> a ns4:Post ;
+    ns2:isString "mtg <allcaps>, die <hastag> qa <allcaps>non queen im kongress. “so jetzt hab ichs gesagt” demokraten sind die nsp <allcaps>usa<number>  <url>" ;
+    ns5:created "2021-05-28T02:35:02Z" ;
+    ns4:content "mtg <allcaps>, die <hastag> qa <allcaps>non queen im kongress. “so jetzt hab ichs gesagt” demokraten sind die nsp <allcaps>usa<number>  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "martingertsch" ;
+            ns4:name "martingertsch" ] ;
+    ns4:id 1398105502844850176 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/mdf200/status/1415703796299272196> a ns4:Post ;
+    ns2:isString "i do wonder how they'll feel when the realize they've been used by the putin, and that the russian threat was real all along.  though. <repeat> knowing <hashtag> maga <allcaps> <allcaps> supporters like we do, they'll just refuse to believe it's real like they normally do. <repeat>  trump is in putin's pocket." ;
+    ns5:created "2021-07-15T16:04:22Z" ;
+    ns4:content "i do wonder how they'll feel when the realize they've been used by the putin, and that the russian threat was real all along.  though. <repeat> knowing <hashtag> maga <allcaps> <allcaps> supporters like we do, they'll just refuse to believe it's real like they normally do. <repeat>  trump is in putin's pocket." ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "mdf200" ;
+            ns4:name "mdf200" ] ;
+    ns4:id 1415703796299272196 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United Kingdom" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anxiety ] ;
+            ns1:ratio 2.040816e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 4.081633e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 2.040816e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 2.040816e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 2.040816e-02 ],
+        [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#Annotation>,
+                ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#AuthorityVice> ] ;
+            ns1:ratio 2.040816e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 2.040816e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Risk ] ;
+            ns1:ratio 2.040816e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/mdf200/status/1415722353926066179> a ns4:Post ;
+    ns2:isString "<user> <hastag> maga voters are literally the ones claiming clinton was in bed with russia and should goto jail, and now it’s okay because it’s <hastag> trump - who it turns out was a russian spy all along.  all trump ever wanted to make great was his own bank balance and ego…." ;
+    ns5:created "2021-07-15T17:18:06Z" ;
+    ns4:content "<user> <hastag> maga voters are literally the ones claiming clinton was in bed with russia and should goto jail, and now it’s okay because it’s <hastag> trump - who it turns out was a russian spy all along.  all trump ever wanted to make great was his own bank balance and ego…." ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "mdf200" ;
+            ns4:name "mdf200" ] ;
+    ns4:id 1415722353926066179 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United Kingdom" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "trump" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Reward ] ;
+            ns1:ratio 1.960784e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 1.960784e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 1.960784e-02 ],
+        [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#Annotation>,
+                ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#IngroupVice> ] ;
+            ns1:ratio 1.960784e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Male ] ;
+            ns1:ratio 1.960784e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Money ] ;
+            ns1:ratio 1.960784e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 3.921569e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Home ] ;
+            ns1:ratio 1.960784e-02 ] ;
+    <schema:parentItem> "https://twitter.com/arodney195/status/1401553848460890113" .
+
+<https://twitter.com/mdf200/status/1415729547727806465> a ns4:Post ;
+    ns2:isString "<user> and <hastag> maga people wonder why everyone else thinks their idiots.  you don't like russia, yet you're perfectly happy with a russian spy in the highest office, just because you don't like to help people worse off than you.  <elong>outstanding. <repeat> 😂" ;
+    ns5:created "2021-07-15T17:46:41Z" ;
+    ns4:content "<user> and <hastag> maga people wonder why everyone else thinks their idiots.  you don't like russia, yet you're perfectly happy with a russian spy in the highest office, just because you don't like to help people worse off than you.  <elong>outstanding. <repeat> 😂" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "mdf200" ;
+            ns4:name "mdf200" ] ;
+    ns4:id 1415729547727806465 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United Kingdom" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 4.545455e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 2.272727e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Risk ] ;
+            ns1:ratio 2.272727e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 2.272727e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 4.545455e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 2.272727e-02 ],
+        [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#Annotation>,
+                ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#IngroupVice> ] ;
+            ns1:ratio 2.272727e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 4.545455e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Reward ] ;
+            ns1:ratio 2.272727e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 2.272727e-02 ] ;
+    <schema:parentItem> "https://twitter.com/arodney195/status/1401553848460890113" .
+
+<https://twitter.com/mdf200/status/1415730364673310720> a ns4:Post ;
+    ns2:isString "<user> there is, like letting russia dictate us <allcaps> policy, and put someone in power who's only goal was to destroy the country you supposedly love.  again. <repeat> all because someone wants to use tax payer money to help those in need.  <hastag> maga logic is moronic." ;
+    ns5:created "2021-07-15T17:49:56Z" ;
+    ns4:content "<user> there is, like letting russia dictate us <allcaps> policy, and put someone in power who's only goal was to destroy the country you supposedly love.  again. <repeat> all because someone wants to use tax payer money to help those in need.  <hastag> maga logic is moronic." ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "mdf200" ;
+            ns4:name "mdf200" ] ;
+    ns4:id 1415730364673310720 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United Kingdom" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Reward ] ;
+            ns1:ratio 2.173913e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Money ] ;
+            ns1:ratio 6.521739e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 8.695652e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 4.347826e-02 ],
+        [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#Annotation>,
+                ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#HarmVice> ] ;
+            ns1:ratio 2.173913e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 4.347826e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 2.173913e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 1.304348e-01 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 6.521739e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 2.173913e-02 ] ;
+    <schema:parentItem> "https://twitter.com/arodney195/status/1401553848460890113" .
+
+<https://twitter.com/meeuwissen_pvv/status/1415189799401631745> a ns4:Post ;
+    ns2:isString "nice <hastag> <number>juli<number> <hastag> <number>juillet<number> <hastag> stopislam  <url>" ;
+    ns5:created "2021-07-14T06:01:55Z" ;
+    ns4:content "nice <hastag> <number>juli<number> <hastag> <number>juillet<number> <hastag> stopislam  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "meeuwissen_pvv" ;
+            ns4:name "meeuwissen_pvv" ] ;
+    ns4:id 1415189799401631745 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "Netherlands" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "stopislam" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "14juillet2016" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "14juli2016" ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 1.666667e-01 ] .
+
+<https://twitter.com/molloyjohn/status/1345889736121077765> a ns4:Post ;
+    ns2:isString "\"remember, comrades, your resolution must never falter.  no argument must lead you astray\"  george <allcaps> orwell <allcaps> - animal farm. <hastag> lockhimup <hastag> trumptapes <hastag> trumptreason <hashtag> maga <allcaps> <allcaps> <hashtag> gop <allcaps> <allcaps> <hastag> trumpmarch <hastag> trumpsupporters  <url>" ;
+    ns5:created "2021-01-04T00:28:13Z" ;
+    ns4:content "\"remember, comrades, your resolution must never falter.  no argument must lead you astray\"  george <allcaps> orwell <allcaps> - animal farm. <hastag> lockhimup <hastag> trumptapes <hastag> trumptreason <hashtag> maga <allcaps> <allcaps> <hashtag> gop <allcaps> <allcaps> <hastag> trumpmarch <hastag> trumpsupporters  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "molloyjohn" ;
+            ns4:name "molloyjohn" ] ;
+    ns4:id 1345889736121077765 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United Kingdom" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "trumpmarch" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "trumpsupporters" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "lockhimup" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "gop" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "trumptreason" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "trumptapes" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 3.448276e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 3.448276e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 3.448276e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 3.448276e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 3.448276e-02 ],
+        [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#Annotation>,
+                ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#IngroupVirtue> ] ;
+            ns1:ratio 3.448276e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Friend ] ;
+            ns1:ratio 3.448276e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 3.448276e-02 ] .
+
+<https://twitter.com/mountain_guard/status/1414495978497904640> a ns4:Post ;
+    ns2:isString "<user> <user> die dummen leute haben dann auch noch entspr. reichweite um ihren geistigen müll zu verbreiten. traurig. <hastag> qarolineseibt <hastag> naomiseibt  <hastag> qa <allcaps>non <hastag> oliverjanich" ;
+    ns5:created "2021-07-12T08:04:55Z" ;
+    ns4:content "<user> <user> die dummen leute haben dann auch noch entspr. reichweite um ihren geistigen müll zu verbreiten. traurig. <hastag> qarolineseibt <hastag> naomiseibt  <hastag> qa <allcaps>non <hastag> oliverjanich" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "mountain_guard" ;
+            ns4:name "mountain_guard" ] ;
+    ns4:id 1414495978497904640 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qarolineseibt" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "oliverjanich" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "naomiseibt" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 4.347826e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Religion ] ;
+            ns1:ratio 4.347826e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Sad ] ;
+            ns1:ratio 4.347826e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 8.695652e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Money ] ;
+            ns1:ratio 4.347826e-02 ] ;
+    <schema:parentItem> "https://twitter.com/mtaushb/status/20857533" .
+
+<https://twitter.com/mountain_guard/status/1414921791873732613> a ns4:Post ;
+    ns2:isString "<user> <user> zu deinem tweet ist nix mehr zu sagen. ausser das man die dümmste kirsche noch variieren kann 😂😂 aber <hastag> laurenboebert ja. <repeat>steht <hastag> marjorietaylorgreene in gar nix nach. hohl wie omo. <repeat>aber <hastag> qa <allcaps>non 💚💚" ;
+    ns5:created "2021-07-13T12:16:57Z" ;
+    ns4:content "<user> <user> zu deinem tweet ist nix mehr zu sagen. ausser das man die dümmste kirsche noch variieren kann 😂😂 aber <hastag> laurenboebert ja. <repeat>steht <hastag> marjorietaylorgreene in gar nix nach. hohl wie omo. <repeat>aber <hastag> qa <allcaps>non 💚💚" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "mountain_guard" ;
+            ns4:name "mountain_guard" ] ;
+    ns4:id 1414921791873732613 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "marjorietaylorgreene" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "laurenboebert" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 3.030303e-02 ] ;
+    <schema:parentItem> "https://twitter.com/1410_berlin/status/1420061648" .
+
+<https://twitter.com/mtoneill1/status/1416122289213562885> a ns4:Post ;
+    ns2:isString "for all the <hastag> qa <allcaps>non people, i found him. turns out q lives in granton, edinburgh. go figure.  <url>" ;
+    ns5:created "2021-07-16T19:47:18Z" ;
+    ns4:content "for all the <hastag> qa <allcaps>non people, i found him. turns out q lives in granton, edinburgh. go figure.  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "mtoneill1" ;
+            ns4:name "mtoneill1" ] ;
+    ns4:id 1416122289213562885 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Male ] ;
+            ns1:ratio 5.263158e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/nitatarr/status/1415632245990334466> a ns4:Post ;
+    ns2:isString "an important tweet for anyone who has had covid. young or older, fit or otherwise. read the threads. <hastag> longtermcovid <hastag> covid <hastag> delta <hastag> vaccine take note: <hashtag> maga <allcaps> <allcaps>" ;
+    ns5:created "2021-07-15T11:20:03Z" ;
+    ns4:content "an important tweet for anyone who has had covid. young or older, fit or otherwise. read the threads. <hastag> longtermcovid <hastag> covid <hastag> delta <hastag> vaccine take note: <hashtag> maga <allcaps> <allcaps>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "nitatarr" ;
+            ns4:name "nitatarr" ] ;
+    ns4:id 1415632245990334466 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "Ireland" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "vaccine" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "delta" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "covid" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "longtermcovid" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 4e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 4e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Reward ] ;
+            ns1:ratio 4e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 4e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 4e-02 ] .
+
+<https://twitter.com/powwowasu/status/1415711529312395269> a ns4:Post ;
+    ns2:isString "trump on <user> and <user>  before he became a fake republican to use the gullible republican base as his cult. <hastag> trumpinsurrection  <hashtag> maga <allcaps> <allcaps> <hashtag> gop <allcaps> <allcaps> <hastag> gopc <allcaps>orruptionovercountry" ;
+    ns5:created "2021-07-15T16:35:05Z" ;
+    ns4:content "trump on <user> and <user>  before he became a fake republican to use the gullible republican base as his cult. <hastag> trumpinsurrection  <hashtag> maga <allcaps> <allcaps> <hashtag> gop <allcaps> <allcaps> <hastag> gopc <allcaps>orruptionovercountry" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "powwowasu" ;
+            ns4:name "powwowasu" ] ;
+    ns4:id 1415711529312395269 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United States" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "gop" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "gopcorruptionovercountry" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "trumpinsurrection" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 3.846154e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Male ] ;
+            ns1:ratio 7.692308e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/ppmmal/status/1415006921711620096> a ns4:Post ;
+    ns2:isString "<user> \"+++ bitte unterstützt den kanal! +++\" mit euren € schenkungen*, am besten mittels dauerauftrag, denn unser kanal ist leer, wie flasche pommes frites!  *) den wir haben ein attest von <hastag> qa <allcaps>non,  <elong>wir sind einen gmbh &amp; co kg <allcaps> gbr ohg <allcaps> vv <allcaps>ag nach  <elong>aserbaidschanischem recht!  <url>" ;
+    ns5:created "2021-07-13T17:55:14Z" ;
+    ns4:content "<user> \"+++ bitte unterstützt den kanal! +++\" mit euren € schenkungen*, am besten mittels dauerauftrag, denn unser kanal ist leer, wie flasche pommes frites!  *) den wir haben ein attest von <hastag> qa <allcaps>non,  <elong>wir sind einen gmbh &amp; co kg <allcaps> gbr ohg <allcaps> vv <allcaps>ag nach  <elong>aserbaidschanischem recht!  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "ppmmal" ;
+            ns4:name "ppmmal" ] ;
+    ns4:id 1415006921711620096 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 3.636364e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 1.818182e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Leisure ] ;
+            ns1:ratio 3.636364e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 3.636364e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Religion ] ;
+            ns1:ratio 1.818182e-02 ] ;
+    <schema:parentItem> "https://twitter.com/Stefan_K__/status/730300986863042560" .
+
+<https://twitter.com/r0tb3rt/status/1415693529670725632> a ns4:Post ;
+    ns2:isString "you can't make up so much idiocracy, they really believe trump will be reinstated in august because the fuckin mypillow guy said so. this is beyond fuckin hilarious. 😂  <hashtag> maga <allcaps> <allcaps> <hastag> trump <hashtag> potus <allcaps> <allcaps> <hastag> mypillow <hastag> idiocracy <hastag> stupidity" ;
+    ns5:created "2021-07-15T15:23:34Z" ;
+    ns4:content "you can't make up so much idiocracy, they really believe trump will be reinstated in august because the fuckin mypillow guy said so. this is beyond fuckin hilarious. 😂  <hashtag> maga <allcaps> <allcaps> <hastag> trump <hashtag> potus <allcaps> <allcaps> <hastag> mypillow <hastag> idiocracy <hastag> stupidity" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "r0tb3rt" ;
+            ns4:name "r0tb3rt" ] ;
+    ns4:id 1415693529670725632 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "Germany" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "potus" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "stupidity" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "mypillow" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "idiocracy" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "trump" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 2.777778e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 8.333333e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Male ] ;
+            ns1:ratio 2.777778e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Friend ] ;
+            ns1:ratio 2.777778e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 2.777778e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 8.333333e-02 ] .
+
+<https://twitter.com/reinhardx/status/1416769348123959309> a ns4:Post ;
+    ns2:isString "<user> ich sehe <hastag> kickl vielmehr im lager der <hastag> staatsverweigerer, der <hastag> qanon ver-rückten und der <hastag> hooligans kampftruppen - die ganz, ganz extrem rechten in der <hastag> fpö sind leute wie <hastag> hofer oder <hastag> eustacchio und <hastag> sippel in <hastag> graz - und die fressen öffentlich genauso extrem kreide" ;
+    ns5:created "2021-07-18T14:38:29Z" ;
+    ns4:content "<user> ich sehe <hastag> kickl vielmehr im lager der <hastag> staatsverweigerer, der <hastag> qanon ver-rückten und der <hastag> hooligans kampftruppen - die ganz, ganz extrem rechten in der <hastag> fpö sind leute wie <hastag> hofer oder <hastag> eustacchio und <hastag> sippel in <hastag> graz - und die fressen öffentlich genauso extrem kreide" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "reinhardx" ;
+            ns4:name "reinhardx" ] ;
+    ns4:id 1416769348123959309 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "sippel" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "hofer" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "staatsverweigerer" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "hooligans" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "eustacchio" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "kickl" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "fpö" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "graz" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Family ] ;
+            ns1:ratio 6.976744e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Leisure ] ;
+            ns1:ratio 4.651163e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Home ] ;
+            ns1:ratio 4.651163e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 2.325581e-02 ] ;
+    <schema:parentItem> "https://twitter.com/msulzbacher/status/178680931" .
+
+<https://twitter.com/rina26kiran/status/1383076521309536260> a ns4:Post ;
+    ns2:isString "shame on you that you are writing like a fool. <hastag> stopislam" ;
+    ns5:created "2021-04-16T15:15:13Z" ;
+    ns4:content "shame on you that you are writing like a fool. <hastag> stopislam" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "rina26kiran" ;
+            ns4:name "rina26kiran" ] ;
+    ns4:id 1383076521309536260 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "Netherlands" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "stopislam" ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 9.090909e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 9.090909e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 1.818182e-01 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anxiety ] ;
+            ns1:ratio 9.090909e-02 ] .
+
+<https://twitter.com/rina26kiran/status/1385653602476339203> a ns4:Post ;
+    ns2:isString "<hastag> stopislam  <user> read this." ;
+    ns5:created "2021-04-23T17:55:37Z" ;
+    ns4:content "<hastag> stopislam  <user> read this." ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "rina26kiran" ;
+            ns4:name "rina26kiran" ] ;
+    ns4:id 1385653602476339203 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "Netherlands" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "stopislam" ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 2e-01 ] .
+
+<https://twitter.com/rina26kiran/status/1396122629774487553> a ns4:Post ;
+    ns2:isString "well said sir. <hastag> stopislam  <hastag> israel" ;
+    ns5:created "2021-05-22T15:15:48Z" ;
+    ns4:content "well said sir. <hastag> stopislam  <hastag> israel" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "rina26kiran" ;
+            ns4:name "rina26kiran" ] ;
+    ns4:id 1396122629774487553 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "Netherlands" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "israel" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "stopislam" ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Male ] ;
+            ns1:ratio 1.666667e-01 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 1.666667e-01 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 1.666667e-01 ] .
+
+<https://twitter.com/rwrobinson37/status/1417041971965726720> a ns4:Post ;
+    ns2:isString "<hastag> haunted <hastag> voodoo bat🦇doll gives <hastag> hellbat power to hunt souls for hell's asylum. <user> elongated skull doesn't have seal of <hastag> god on his massive forehead😅. ask <hastag> joelgreenberg &amp; <hastag> qa <allcaps>non grifters how fear feels <user> <user> <hastag> mattgaetzisapedo  <url>  <url>" ;
+    ns5:created "2021-07-19T08:41:48Z" ;
+    ns4:content "<hastag> haunted <hastag> voodoo bat🦇doll gives <hastag> hellbat power to hunt souls for hell's asylum. <user> elongated skull doesn't have seal of <hastag> god on his massive forehead😅. ask <hastag> joelgreenberg &amp; <hastag> qa <allcaps>non grifters how fear feels <user> <user> <hastag> mattgaetzisapedo  <url>  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "rwrobinson37" ;
+            ns4:name "rwrobinson37" ] ;
+    ns4:id 1417041971965726720 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "voodoo" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "hellbat" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "haunted" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "god" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "mattgaetzisapedo" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "joelgreenberg" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 7.692308e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anxiety ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Male ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 7.692308e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Religion ] ;
+            ns1:ratio 7.692308e-02 ] .
+
+<https://twitter.com/schwurbelhunter/status/1415273840603709442> a ns4:Post ;
+    ns2:isString "eine der schlimmsten <hastag> schwurbler  /  <hastag> qanon  /  <hastag> fascho telegram <allcaps>-gruppen ist „befreiung deutschland“.  der inhaber dieser gruppe soll ein <hastag> stephanniemann sein.  wer hat weitere infos?  <url>" ;
+    ns5:created "2021-07-14T11:35:52Z" ;
+    ns4:content "eine der schlimmsten <hastag> schwurbler  /  <hastag> qanon  /  <hastag> fascho telegram <allcaps>-gruppen ist „befreiung deutschland“.  der inhaber dieser gruppe soll ein <hastag> stephanniemann sein.  wer hat weitere infos?  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "schwurbelhunter" ;
+            ns4:name "schwurbelhunter" ] ;
+    ns4:id 1415273840603709442 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "fascho" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "stephanniemann" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "schwurbler" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Leisure ] ;
+            ns1:ratio 7.142857e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 3.571429e-02 ] .
+
+<https://twitter.com/sixtus/status/1379352367754272770> a ns4:Post ;
+    ns2:isString "es ist verlockend, laut zu lachen über die verwirrten von <hastag> qa <allcaps>non, aber in der geschichte der menschheit sind solche verschwörungsmythen ursachen von terroranschlägen, kriegen oder völkermorden. der sturm auf das capitol zeigt, wie gefährlich das alles ist.  <url>" ;
+    ns5:created "2021-04-06T08:36:46Z" ;
+    ns4:content "es ist verlockend, laut zu lachen über die verwirrten von <hastag> qa <allcaps>non, aber in der geschichte der menschheit sind solche verschwörungsmythen ursachen von terroranschlägen, kriegen oder völkermorden. der sturm auf das capitol zeigt, wie gefährlich das alles ist.  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "sixtus" ;
+            ns4:name "sixtus" ] ;
+    ns4:id 1379352367754272770 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anxiety ] ;
+            ns1:ratio 5.128205e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 5.128205e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/sorbish/status/1345383514301227009> a ns4:Post ;
+    ns2:isString "make the start-up nation a vacci-nation! <hastag> vaccination <hastag> better <hastag> maga" ;
+    ns5:created "2021-01-02T14:56:40Z" ;
+    ns4:content "make the start-up nation a vacci-nation! <hastag> vaccination <hastag> better <hastag> maga" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "sorbish" ;
+            ns4:name "sorbish" ] ;
+    ns4:id 1345383514301227009 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "vaccination" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "better" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 1.111111e-01 ],
+        [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#Annotation>,
+                ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#IngroupVirtue> ] ;
+            ns1:ratio 2.222222e-01 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 1.111111e-01 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Reward ] ;
+            ns1:ratio 1.111111e-01 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 1.111111e-01 ] .
+
+<https://twitter.com/soulmib/status/1371198203241062400> a ns4:Post ;
+    ns2:isString "in <hastag> hannover sprach <hastag> javidkistel am wochenende von nanopartikeln in <hastag> corona-impfstoffen: „mit denen können sie euch steuern.“ unter den teilnehmern bei <hastag> h<number> waren zudem sympathisanten der „<hastag> querdenken“-bewegung und  „<hastag> qa <allcaps>non“  <hastag> dud <allcaps><number> <hastag> impfgegner    <url>" ;
+    ns5:created "2021-03-14T20:35:01Z" ;
+    ns4:content "in <hastag> hannover sprach <hastag> javidkistel am wochenende von nanopartikeln in <hastag> corona-impfstoffen: „mit denen können sie euch steuern.“ unter den teilnehmern bei <hastag> h<number> waren zudem sympathisanten der „<hastag> querdenken“-bewegung und  „<hastag> qa <allcaps>non“  <hastag> dud <allcaps><number> <hastag> impfgegner    <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "soulmib" ;
+            ns4:name "soulmib" ] ;
+    ns4:id 1371198203241062400 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "javidkistel" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "h1303" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "dud1503" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "hannover" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "querdenken" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "impfgegner" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "corona" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 5.555556e-02 ],
+        [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#Annotation>,
+                ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#HarmVirtue> ] ;
+            ns1:ratio 2.777778e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Leisure ] ;
+            ns1:ratio 5.555556e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 2.777778e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Money ] ;
+            ns1:ratio 2.777778e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/sprishka/status/1415723884851220485> a ns4:Post ;
+    ns2:isString "<user> he doesn’t come across as being bright; now, i’m not an american, but none of the <hashtag> maga <allcaps> <allcaps> brigade appear intelligent." ;
+    ns5:created "2021-07-15T17:24:11Z" ;
+    ns4:content "<user> he doesn’t come across as being bright; now, i’m not an american, but none of the <hashtag> maga <allcaps> <allcaps> brigade appear intelligent." ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "sprishka" ;
+            ns4:name "sprishka" ] ;
+    ns4:id 1415723884851220485 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United Kingdom" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 9.52381e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Male ] ;
+            ns1:ratio 4.761905e-02 ] ;
+    <schema:parentItem> "https://twitter.com/HeelStCloud/status/213738479" .
+
+<https://twitter.com/tasmedes/status/1415682478971314182> a ns4:Post ;
+    ns2:isString "this series is at the roots of the weird claim that there is an elite of reptilians ruling this world. absurd and insane theory, yet i loved this series! <hastag> qa <allcaps>non <hastag> davidicke" ;
+    ns5:created "2021-07-15T14:39:39Z" ;
+    ns4:content "this series is at the roots of the weird claim that there is an elite of reptilians ruling this world. absurd and insane theory, yet i loved this series! <hastag> qa <allcaps>non <hastag> davidicke" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "tasmedes" ;
+            ns4:name "tasmedes" ] ;
+    ns4:id 1415682478971314182 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "davidicke" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 3.225806e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 3.225806e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 3.225806e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 3.225806e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 6.451613e-02 ] .
+
+<https://twitter.com/touchst0ne/status/1416515908479111170> a ns4:Post ;
+    ns2:isString "you threatened a <hastag> parkland survivor.  you compare everything to <hastag> nazis  <elong>you had to be educated on the <hastag> holocaust  <elong>you believe in <hastag> spacelasers  <elong>you advocate for <hastag> qanon  <elong>you stand for <hastag> freedumb." ;
+    ns5:created "2021-07-17T21:51:24Z" ;
+    ns4:content "you threatened a <hastag> parkland survivor.  you compare everything to <hastag> nazis  <elong>you had to be educated on the <hastag> holocaust  <elong>you believe in <hastag> spacelasers  <elong>you advocate for <hastag> qanon  <elong>you stand for <hastag> freedumb." ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "touchst0ne" ;
+            ns4:name "touchst0ne" ] ;
+    ns4:id 1416515908479111170 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "freedumb" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "nazis" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "holocaust" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "spacelasers" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "parkland" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Risk ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anxiety ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Death ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 2.564103e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 2.564103e-02 ] .
+
+<https://twitter.com/tw300695/status/1345781571584983040> a ns4:Post ;
+    ns2:isString "zack steffen <hashtag> maga <allcaps> <allcaps> <user>" ;
+    ns5:created "2021-01-03T17:18:24Z" ;
+    ns4:content "zack steffen <hashtag> maga <allcaps> <allcaps> <user>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "tw300695" ;
+            ns4:name "tw300695" ] ;
+    ns4:id 1345781571584983040 ;
+    ns3:inLanguage "de" ;
+    ns3:locationCreated "" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/vincent00822/status/1415674535609765888> a ns4:Post ;
+    ns2:isString "will <hastag> maga be returning their child credit payments that were just dropped in to their accounts today?" ;
+    ns5:created "2021-07-15T14:08:05Z" ;
+    ns4:content "will <hastag> maga be returning their child credit payments that were just dropped in to their accounts today?" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "vincent00822" ;
+            ns4:name "vincent00822" ] ;
+    ns4:id 1415674535609765888 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "United States" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Money ] ;
+            ns1:ratio 1.764706e-01 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 1.176471e-01 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 5.882353e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 5.882353e-02 ] .
+
+<https://twitter.com/virtanen_risto/status/1415581721450397698> a ns4:Post ;
+    ns2:isString "that’s why they’re trying desperately to prevent others to vote…😳😖 wouldn’t it be better to support policies that most  people want…?🙄<hashtag> maga <allcaps> <allcaps>" ;
+    ns5:created "2021-07-15T07:59:17Z" ;
+    ns4:content "that’s why they’re trying desperately to prevent others to vote…😳😖 wouldn’t it be better to support policies that most  people want…?🙄<hashtag> maga <allcaps> <allcaps>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "virtanen_risto" ;
+            ns4:name "virtanen_risto" ] ;
+    ns4:id 1415581721450397698 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "Finland" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Risk ] ;
+            ns1:ratio 4.545455e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anxiety ] ;
+            ns1:ratio 4.545455e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 9.090909e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Reward ] ;
+            ns1:ratio 4.545455e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 4.545455e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 4.545455e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 4.545455e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 9.090909e-02 ] .
+
+<https://twitter.com/virtanen_risto/status/1415584913022230528> a ns4:Post ;
+    ns2:isString "celebrating the bold patriotic gop <allcaps> christian solution to the global overpopulation problem <hashtag> maga <allcaps> <allcaps> as usual in the land of the free and the home of the brave…😖" ;
+    ns5:created "2021-07-15T08:11:58Z" ;
+    ns4:content "celebrating the bold patriotic gop <allcaps> christian solution to the global overpopulation problem <hashtag> maga <allcaps> <allcaps> as usual in the land of the free and the home of the brave…😖" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "virtanen_risto" ;
+            ns4:name "virtanen_risto" ] ;
+    ns4:id 1415584913022230528 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "Finland" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#Annotation>,
+                ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#IngroupVirtue> ] ;
+            ns1:ratio 3.703704e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Reward ] ;
+            ns1:ratio 3.703704e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 1.111111e-01 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 7.407407e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Risk ] ;
+            ns1:ratio 3.703704e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Leisure ] ;
+            ns1:ratio 3.703704e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Religion ] ;
+            ns1:ratio 3.703704e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Home ] ;
+            ns1:ratio 3.703704e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Money ] ;
+            ns1:ratio 3.703704e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 3.703704e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 3.703704e-02 ] .
+
+<https://twitter.com/virtanen_risto/status/1415585919227269120> a ns4:Post ;
+    ns2:isString "celebrating the valiant patriotic gop <allcaps> christian solution to the global overpopulation problem <hashtag> maga <allcaps> <allcaps> 😱😖🤬🤪" ;
+    ns5:created "2021-07-15T08:15:58Z" ;
+    ns4:content "celebrating the valiant patriotic gop <allcaps> christian solution to the global overpopulation problem <hashtag> maga <allcaps> <allcaps> 😱😖🤬🤪" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "virtanen_risto" ;
+            ns4:name "virtanen_risto" ] ;
+    ns4:id 1415585919227269120 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "Finland" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 7.142857e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Religion ] ;
+            ns1:ratio 7.142857e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Risk ] ;
+            ns1:ratio 7.142857e-02 ],
+        [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#Annotation>,
+                ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#IngroupVirtue> ] ;
+            ns1:ratio 7.142857e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 7.142857e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Leisure ] ;
+            ns1:ratio 7.142857e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Achievement ] ;
+            ns1:ratio 1.428571e-01 ] .
+
+<https://twitter.com/voxeurop/status/1415662417523130369> a ns4:Post ;
+    ns2:isString ".<hastag> qa <allcaps>non comes to <hastag> europe: where to look in 🇪🇺 to find 🇺🇸’s most delusional (and dangerous) <hastag> conspiracytheory. by <user>. <number>nd episode of our series on <hastag> conspiracism in europe. illustration by <user> | <hastag> trump <hastag> querdenken<number>  <url>" ;
+    ns5:created "2021-07-15T13:19:56Z" ;
+    ns4:content ".<hastag> qa <allcaps>non comes to <hastag> europe: where to look in 🇪🇺 to find 🇺🇸’s most delusional (and dangerous) <hastag> conspiracytheory. by <user>. <number>nd episode of our series on <hastag> conspiracism in europe. illustration by <user> | <hastag> trump <hastag> querdenken<number>  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "voxeurop" ;
+            ns4:name "voxeurop" ] ;
+    ns4:id 1415662417523130369 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "conspiracytheory" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "conspiracism" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "europe" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "querdenken711" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "trump" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 2.777778e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Risk ] ;
+            ns1:ratio 2.777778e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 2.777778e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+
+<https://twitter.com/voxeurop/status/1416402041656782849> a ns4:Post ;
+    ns2:isString ".<hastag> qa <allcaps>non comes to <hastag> europe: where to look in 🇪🇺 to find 🇺🇸’s most delusional (and dangerous) <hastag> conspiracytheory. by <user>. <number>nd episode of our series on <hastag> conspiracism in europe. illustration by <user> | <hastag> trump <hastag> querdenken<number>  <url>" ;
+    ns5:created "2021-07-17T14:18:56Z" ;
+    ns4:content ".<hastag> qa <allcaps>non comes to <hastag> europe: where to look in 🇪🇺 to find 🇺🇸’s most delusional (and dangerous) <hastag> conspiracytheory. by <user>. <number>nd episode of our series on <hastag> conspiracism in europe. illustration by <user> | <hastag> trump <hastag> querdenken<number>  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "voxeurop" ;
+            ns4:name "voxeurop" ] ;
+    ns4:id 1416402041656782849 ;
+    ns3:inLanguage "en" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "europe" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "conspiracism" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "querdenken711" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "trump" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "conspiracytheory" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 2.777778e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 2.777778e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Risk ] ;
+            ns1:ratio 2.777778e-02 ] .
+
+<https://twitter.com/voxeuropde/status/1414202806047805441> a ns4:Post ;
+    ns2:isString "<hastag> qa <allcaps>non in 🇪🇺: wer unterstützt die irren und brandgefährlichen verschwörungstheoretiker# aus den usa <allcaps>? <user> mit teil <number> ihrer serie über <hastag> verschwörungstheorien in <hastag> europa. illustration: <user>. <hastag> komplottismus <hastag> trump <hastag> querdenken<number>  <url>" ;
+    ns5:created "2021-07-11T12:39:58Z" ;
+    ns4:content "<hastag> qa <allcaps>non in 🇪🇺: wer unterstützt die irren und brandgefährlichen verschwörungstheoretiker# aus den usa <allcaps>? <user> mit teil <number> ihrer serie über <hastag> verschwörungstheorien in <hastag> europa. illustration: <user>. <hastag> komplottismus <hastag> trump <hastag> querdenken<number>  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "voxeuropde" ;
+            ns4:name "voxeuropde" ] ;
+    ns4:id 1414202806047805441 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "trump" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "verschwörungstheorien" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "komplottismus" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "querdenken711" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "europa" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 3.333333e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 3.333333e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Money ] ;
+            ns1:ratio 3.333333e-02 ] .
+
+<https://twitter.com/voxeuropde/status/1416796644222382083> a ns4:Post ;
+    ns2:isString "<hastag> qa <allcaps>non in 🇪🇺: wer unterstützt die irren und brandgefährlichen verschwörungstheoretiker# aus den usa <allcaps>? <user> mit teil <number> ihrer serie über <hastag> verschwörungstheorien in <hastag> europa. illustration: <user>. <hastag> komplottismus <hastag> trump <hastag> querdenken<number>  <url>" ;
+    ns5:created "2021-07-18T16:26:57Z" ;
+    ns4:content "<hastag> qa <allcaps>non in 🇪🇺: wer unterstützt die irren und brandgefährlichen verschwörungstheoretiker# aus den usa <allcaps>? <user> mit teil <number> ihrer serie über <hastag> verschwörungstheorien in <hastag> europa. illustration: <user>. <hastag> komplottismus <hastag> trump <hastag> querdenken<number>  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "voxeuropde" ;
+            ns4:name "voxeuropde" ] ;
+    ns4:id 1416796644222382083 ;
+    ns3:inLanguage "de" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "europa" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "verschwörungstheorien" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "trump" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "komplottismus" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "querdenken711" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "qanon" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 3.333333e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Money ] ;
+            ns1:ratio 3.333333e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 3.333333e-02 ] .
+
+<https://twitter.com/yhwhuniversity/status/1345120107283046400> a ns4:Post ;
+    ns2:isString "<user> <user> <hastag> happynewyear<number> to my christ believing brother mike pompeo, as indeed to vp <allcaps> <user> and to the greatest president in living history <hashtag> maga <allcaps> <allcaps> <user>  also to all americans and my fellow english patriots and believers in the truth!  god bless you🕊  <url>" ;
+    ns5:created "2021-01-01T21:29:59Z" ;
+    ns4:content "<user> <user> <hastag> happynewyear<number> to my christ believing brother mike pompeo, as indeed to vp <allcaps> <user> and to the greatest president in living history <hashtag> maga <allcaps> <allcaps> <user>  also to all americans and my fellow english patriots and believers in the truth!  god bless you🕊  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "yhwhuniversity" ;
+            ns4:name "yhwhuniversity" ] ;
+    ns4:id 1345120107283046400 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "@Speedcomesfirst™️ memes" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "happynewyear2021" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Friend ] ;
+            ns1:ratio 2.173913e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Family ] ;
+            ns1:ratio 2.173913e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Positive ] ;
+            ns1:ratio 6.521739e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Religion ] ;
+            ns1:ratio 6.521739e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 2.173913e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 8.695652e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Work ] ;
+            ns1:ratio 4.347826e-02 ],
+        [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#Annotation>,
+                ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a <http://www.gsi.upm.es/ontologies/participation/moral/ns#IngroupVirtue> ] ;
+            ns1:ratio 4.347826e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Male ] ;
+            ns1:ratio 4.347826e-02 ] ;
+    <schema:parentItem> "https://twitter.com/mikepompeo/status/1163992520252153857" .
+
+<https://twitter.com/yhwhuniversity/status/1346150000405975040> a ns4:Post ;
+    ns2:isString "<user> the <hastag> democrats and liberalism in general are not insulting us <hashtag> maga <allcaps> <allcaps> folk <user> <user> <user> etc, they are intentionally insulting god <allcaps>!  zechariah <number> but they refused to listen, and turned their backs, and stopped their ears, that they might not hear.  <url>" ;
+    ns5:created "2021-01-04T17:42:25Z" ;
+    ns4:content "<user> the <hastag> democrats and liberalism in general are not insulting us <hashtag> maga <allcaps> <allcaps> folk <user> <user> <user> etc, they are intentionally insulting god <allcaps>!  zechariah <number> but they refused to listen, and turned their backs, and stopped their ears, that they might not hear.  <url>" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "yhwhuniversity" ;
+            ns4:name "yhwhuniversity" ] ;
+    ns4:id 1346150000405975040 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "@Speedcomesfirst™️ memes" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "democrats" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Anger ] ;
+            ns1:ratio 4.444444e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Negative ] ;
+            ns1:ratio 4.444444e-02 ],
+        [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Affiliation ] ;
+            ns1:ratio 2.222222e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Religion ] ;
+            ns1:ratio 2.222222e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Risk ] ;
+            ns1:ratio 2.222222e-02 ],
+        [ a ns1:AggregatedAnnotation ;
+            ns1:hasCategory [ a ns1:Power ] ;
+            ns1:ratio 4.444444e-02 ] ;
+    <schema:parentItem> "https://twitter.com/bennyjohnson/status/15212187" .
+
+<https://twitter.com/ymmymmmy/status/1415588277579624448> a ns4:Post ;
+    ns2:isString "<number> days to august <number>th.  <hastag> republicans <user> <user> <user> <user>  <user>  <hastag> maga" ;
+    ns5:created "2021-07-15T08:25:20Z" ;
+    ns4:content "<number> days to august <number>th.  <hastag> republicans <user> <user> <user> <user>  <user>  <hastag> maga" ;
+    ns4:has_creator [ a ns4:UserAccount ;
+            ns4:id "ymmymmmy" ;
+            ns4:name "ymmymmmy" ] ;
+    ns4:id 1415588277579624448 ;
+    ns3:inLanguage "en" ;
+    ns3:locationCreated "France" ;
+    ns3:mentions [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "republicans" ],
+        [ a <http://rdfs.org/sioc/types#Tag> ;
+            rdfs:label "maga" ] ;
+    ns6:hasIdeology [ a ns6:Far_right ] ;
+    ns1:hasAnnotation [ a ns6:Annotation,
+                ns1:AggregatedAnnotation ;
+            ns6:ratio 1e+00 ;
+            ns1:hasCategory [ a ns6:ProFar_right ] ] .
+

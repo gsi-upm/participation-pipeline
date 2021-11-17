@@ -1,0 +1,10 @@
+---
+name: liwc
+module: liwc-gsi
+description: A plugin to easily use LIWC dictionary.
+author: "@dveni"
+version: "0.1"
+url: ""
+data: "data/*.dic"
+requirements:
+  - liwc

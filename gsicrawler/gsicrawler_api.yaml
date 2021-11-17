@@ -1,0 +1,391 @@
+---
+openapi: "3.0.0"
+info:
+  version: "0.1.0"
+  title: GSICrawler API
+  license:
+    name: MIT
+    url: http://github.com/gruntjs/grunt/blob/master/LICENSE-MIT
+servers:
+  - url: /api/v1
+components:
+  responses:
+      done:
+        description: Scraper result
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/result"
+      pending:
+        description: Scraper task running in background
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/result"
+  schemas:
+    result:
+      description: 'Results from a crawling task.'
+      required:
+        - task_id
+      properties:
+        task_id:
+          type: number
+        status:
+          type: string
+          example: 'PENDING'
+          description: 'Status of the task. It is merely informative, as HTTP codes are preferred.'
+        results:
+          description: 'Results from the crawler'
+          type: array
+          items:
+            type: object
+  parameters:
+    output:
+      name: output
+      schema:
+        type: string
+        enum:
+          - json
+          - elasticsearch
+        default: json
+      in: query
+      description: Select the output. If takes long taskId will be returned
+    esendpoint:
+      name: esendpoint
+      in: query
+      description: elasticsearch endpoint to store data. host:port
+      required: false
+      schema:
+        type: string
+    index:
+      name: index
+      in: query
+      description: elasticsearch index to store data.
+      required: false
+      schema:
+        type: string
+    doctype:
+      name: doctype
+      in: query
+      description: elasticsearch doc_type to store data.
+      required: false
+      schema:
+        type: string
+    timeout:
+      name: timeout
+      in: query
+      description: seconds to wait before returning the task information.
+      required: false
+      schema:
+        type: integer
+        default: 1
+paths:
+  /tasks/{taskId}:
+    get:
+      tags:
+      - tasks
+      parameters:
+      - name: taskId
+        in: path
+        schema:
+          type: string
+        required: true
+        description: Enter the taskId you want to check
+      responses:
+        200:
+          $ref: "#/components/responses/done"
+        202:
+          $ref: "#/components/responses/pending"
+          description: Task information, running in background
+
+  /scrapers/twitter/:
+    get:
+      operationId: gsicrawler.controllers.scrapers.twitter_scraper
+      description: Makes a query to get the most recent tweets
+      tags:
+      - scrapers
+      parameters:
+      - name: query
+        schema:
+          type: string
+        in: query
+        description: Topic to search about in Twitter
+        required: true
+      - name: querytype
+        schema:
+          type: string
+          enum:
+            - search
+            - timeline
+          default: search
+        in: query
+        description: Select the query type. Choose between normal search or retrieve a timeline.
+      - name: keep
+        schema:
+          type: boolean
+          default: false
+        in: query
+        description: "Keep all original fields in the response"
+      - name: library
+        schema:
+          type: string
+          enum:
+            - tweepy
+            - twint
+          default: twint
+        in: query
+        required: true
+        description: "Select the library used to retrieve the tweets. Tweepy uses the official Twitter API with the its limitations. Twint uses a different method and doesn' require API keys."
+      - name: before
+        schema:
+          type: string
+          default: ""
+        in: query
+        description: "Search for tweets up until this date. Only works for the Twint library. Date format is '2021-01-31'."
+      - name: after
+        schema:
+          type: string
+          default: ""
+        in: query
+        description: "Search for tweets since this date. Only works for the Twint library. Date format is '2021-01-31'."
+      - name: number
+        schema:
+          type: integer
+          default: 10
+        in: query
+        description: "Number of reviews to retrieve. Set to 0 or below to retrieve all available reviews."
+      - $ref: '#/components/parameters/output'
+      - $ref: '#/components/parameters/esendpoint'
+      - $ref: '#/components/parameters/index'
+      - $ref: '#/components/parameters/doctype'
+      - $ref: '#/components/parameters/timeout'
+      responses:
+        200:
+          $ref: "#/components/responses/done"
+        202:
+          $ref: "#/components/responses/pending"
+  /scrapers/tripadvisor/:
+    get:
+      operationId: gsicrawler.controllers.scrapers.tripadvisor_scraper
+      description: Makes a query to get the most reviews in tripadvisor about restaurants
+      tags:
+      - scrapers
+      parameters:
+      - name: query
+        schema:
+          type: string
+        in: query
+        description: Restaurants to search about in tripadvisor
+        required: true
+      - name: number
+        schema:
+          type: integer
+          default: -1
+        in: query
+        description: Number of results wanted
+      - $ref: '#/components/parameters/output'
+      - $ref: '#/components/parameters/esendpoint'
+      - $ref: '#/components/parameters/index'
+      - $ref: '#/components/parameters/doctype'
+      - $ref: '#/components/parameters/timeout'
+      responses:
+        200:
+          $ref: "#/components/responses/done"
+        202:
+          $ref: "#/components/responses/pending"
+  /scrapers/facebook/:
+    get:
+      operationId: gsicrawler.controllers.scrapers.facebook_scraper
+      description: Run a scraper on a facebook page
+      tags:
+      - scrapers
+      parameters:
+      - name: query
+        schema:
+          type: string
+        in: query
+        description: facebook page name to crawl
+        required: true
+      - name: number
+        schema:
+          type: integer
+          default: 10
+        in: query
+        description: Number of results wanted
+      - $ref: '#/components/parameters/output'
+      - $ref: '#/components/parameters/esendpoint'
+      - $ref: '#/components/parameters/index'
+      - $ref: '#/components/parameters/doctype'
+      - $ref: '#/components/parameters/timeout'
+      responses:
+        200:
+          $ref: "#/components/responses/done"
+        202:
+          $ref: "#/components/responses/pending"
+  /scrapers/cnn/:
+    get:
+      operationId: gsicrawler.controllers.scrapers.cnn_scraper
+      description: Run a scraper to search news in CNN
+      tags:
+      - scrapers
+      parameters:
+      - name: query
+        schema:
+          type: string
+        in: query
+        description: Topic to search news in CNN
+        required: true
+      - name: date
+        schema:
+          type: string
+        in: query
+        description: Return news published after this date. Date should be formatted as YYYY-MM-DD.
+        required: true
+      - $ref: '#/components/parameters/output'
+      - $ref: '#/components/parameters/esendpoint'
+      - $ref: '#/components/parameters/index'
+      - $ref: '#/components/parameters/doctype'
+      - $ref: '#/components/parameters/timeout'
+      responses:
+        200:
+          $ref: "#/components/responses/done"
+        202:
+          $ref: "#/components/responses/pending"
+
+  # /scrapers/elpais/:
+  #   get:
+  #     operationId: gsicrawler.controllers.scrapers.elpais_scraper
+  #     description: Run a scraper to search news in ElPais
+  #     deprecated: true
+  #     tags:
+  #     - scrapers
+  #     produces:
+  #     - application/json
+  #     parameters:
+  #     - name: query
+  #       type: string
+  #       in: query
+  #       description: Topic to search news in ElPais
+  #       required: true
+  #     - name: number
+  #       type: integer
+  #       default: 10
+  #       in: query
+  #       description: Number of results wanted
+  #       required: true
+  #     - name: output
+  #       type: string
+  #       enum:
+  #         - json
+  #         - elasticsearch
+  #       in: query
+  #       description: Select the output. If takes long taskId will be returned
+  #       required: true
+  #     - name: esendpoint
+  #       type: string
+  #       in: query
+  #       description: elasticsearch endpoint to store data. host:port
+  #       required: false
+  #     - name: index
+  #       type: string
+  #       in: query
+  #       description: elasticsearch index to store data.
+  #       required: false
+  #     - name: doctype
+  #       type: string
+  #       in: query
+  #       description: elasticsearch doc_type to store data.
+  #       required: false
+  #     responses:
+  #       200:
+  #         description: Scraper result or task id running in background
+
+  /scrapers/elmundo/:
+    get:
+      operationId: gsicrawler.controllers.scrapers.elmundo_scraper
+      description: Run a scraper to search news in ElMundo
+      tags:
+      - scrapers
+      parameters:
+      - name: query
+        schema:
+          type: string
+        in: query
+        description: Topic to search news in ElMundo
+        required: true
+      - name: number
+        schema:
+          type: integer
+          default: 10
+        in: query
+        description: Number of results wanted
+      - $ref: '#/components/parameters/output'
+      - $ref: '#/components/parameters/esendpoint'
+      - $ref: '#/components/parameters/index'
+      - $ref: '#/components/parameters/doctype'
+      - $ref: '#/components/parameters/timeout'
+      responses:
+        200:
+          $ref: "#/components/responses/done"
+        202:
+          $ref: "#/components/responses/pending"
+        
+  /scrapers/nyt/:
+    get:
+      operationId: gsicrawler.controllers.scrapers.nyt_scraper
+      description: Run a scraper to search news in New York Times
+      tags:
+      - scrapers
+      parameters:
+      - name: query
+        schema:
+          type: string
+        in: query
+        description: Topic to search news in New York Times
+        required: true
+      - name: date
+        schema:
+          type: string
+        in: query
+        description: Return news published after this date. Date should be formatted as YYYY-MM-DD.
+        required: true
+      - $ref: '#/components/parameters/output'
+      - $ref: '#/components/parameters/esendpoint'
+      - $ref: '#/components/parameters/index'
+      - $ref: '#/components/parameters/doctype'
+      - $ref: '#/components/parameters/timeout'
+      responses:
+        200:
+          $ref: "#/components/responses/done"
+        202:
+          $ref: "#/components/responses/pending"
+  /scrapers/aljazeera/:
+    get:
+      operationId: gsicrawler.controllers.scrapers.aljazeera_scraper
+      description: Run a scraper to search news in Al Jazeera
+      tags:
+      - scrapers
+      parameters:
+      - name: query
+        schema:
+          type: string
+        in: query
+        description: Topic to search news in Al Jazeera
+        required: true
+      - name: date
+        schema:
+          type: string
+          format: date
+        in: query
+        description: Return news published after this date. Date should be formatted as YYYY-MM-DD. 
+        required: true
+      - $ref: '#/components/parameters/output'
+      - $ref: '#/components/parameters/esendpoint'
+      - $ref: '#/components/parameters/index'
+      - $ref: '#/components/parameters/doctype'
+      - $ref: '#/components/parameters/timeout'
+      responses:
+        200:
+          $ref: "#/components/responses/done"
+        202:
+          $ref: "#/components/responses/pending"

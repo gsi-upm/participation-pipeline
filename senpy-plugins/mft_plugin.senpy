@@ -1,0 +1,10 @@
+---
+name: mft
+module: mft
+description: A plugin to easily use MFT dictionary.
+author: "@ggarcia"
+version: "0.1"
+url: ""
+data: "data/*.dic"
+requirements:
+  - liwc

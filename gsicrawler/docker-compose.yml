@@ -1,0 +1,42 @@
+# This YAML runs every service as a separate container
+version: '2.1'
+services:
+  gsicrawler:
+    image: "${IMAGE:-gsiupm/gsicrawler}:${VERSION:-dev}"
+    build: .
+    volumes:
+     - ".:/usr/src/app"
+    ports:
+     - "5000:5000"
+     - "5555:5555"
+    env_file: .env
+    networks:
+            - gsicrawler
+  redis:
+    image: redis
+    networks:
+            - gsicrawler
+  elasticsearch:
+    image: "docker.elastic.co/elasticsearch/elasticsearch:5.5.2"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    environment:
+      - cluster.name=docker-cluster
+      - bootstrap.memory_lock=false
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - "xpack.security.enabled=false"
+      - "http.cors.enabled=true"
+      - 'http.cors.allow-origin=*'
+    volumes:
+      - ./es-data:/usr/share/elasticsearch/data/
+    ports:
+      - 9200:9200
+      - 9300:9300
+    networks:
+      - gsicrawler
+
+networks:
+  gsicrawler:
+    driver: bridge

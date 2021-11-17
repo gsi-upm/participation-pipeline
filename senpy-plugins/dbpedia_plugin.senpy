@@ -1,0 +1,9 @@
+---
+name: dbpedia
+module: dbpedia-gsi
+description: A plugin to easily use the DBpedia SPARQL endpoint.
+author: "@ggarcia"
+version: "0.1"
+url: ""
+requirements:
+  - dbpedia
